@@ -20,38 +20,26 @@ namespace LeetCode.Medium
 
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            string strl1 = l1.val.ToString();
-            string strl2 = l2.val.ToString();
-            while (l1.next != null)
+            ListNode DumyHead = new ListNode(0);
+            ListNode curNode = DumyHead;
+            ListNode p = l1, q = l2;
+            int carry = 0;//进位
+            while (p != null || q != null)
             {
-                l1 = l1.next;
-                strl1 = l1.val.ToString() + strl1;
-                
+                int x = p != null ? p.val : 0;
+                int y = q != null ? q.val : 0;
+                int sum = x + y + carry;
+                carry = sum / 10;
+                curNode.next = new ListNode(sum % 10);
+                curNode = curNode.next;
+                p = p != null ? p.next : p;
+                q = q != null ? q.next : q;
             }
-            while (l2.next != null)
-            {
-                l2 = l2.next;
-                strl2 = l2.val.ToString()+strl2;
-                
-            }
-            int int1 = Convert.ToInt16(strl1);
-            int int2 = Convert.ToInt16(strl2);
-            string strResult = (int1 + int2).ToString();
-            ListNode resultNode = new ListNode(0);
-            int length = strResult.Length - 1;
-            for (int i = length; i>=0; i--)
-            {
-                int next = Convert.ToInt16(strResult[i - 1].ToString());
-                int curr = Convert.ToInt16(strResult[i].ToString());
-                if (i > 0)
-                {
-                    resultNode.next = new ListNode(curr);
-                }
-                resultNode.val = curr;
+            if (carry > 0)
+                curNode.next = new ListNode(carry);
+            return DumyHead.next;
 
-            }
-
-            return resultNode;
+  
 
 
 
