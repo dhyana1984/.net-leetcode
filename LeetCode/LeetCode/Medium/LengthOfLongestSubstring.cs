@@ -26,7 +26,36 @@ namespace LeetCode.Medium
         请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
      
          */
-    public class LengthOfLongestSubstring
+    public class SolutionLengthOfLongestSubstring
     {
+        public int LengthOfLongestSubstring(string s)
+        {
+            int length = s.Length;
+            if (s.Trim() == "")
+                return 1;
+            if (length == 1)
+                return 1;
+            if (length == 2 && s[1] != s[0])
+                return 2;
+            int count = 1;
+            string result = "";
+            int a_max = 1;
+            for (int i = 0; i <length-1; i++)
+            {
+                if(!result.Contains(s[i]))
+                {
+                    result += s[i];
+                    count++;
+                }
+                else
+                {
+                    result = "" + s[i];
+                    a_max = Math.Max(count,count);
+                    count = 1;
+                }
+            }
+
+            return a_max;
+        }
     }
 }
