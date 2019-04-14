@@ -24,7 +24,7 @@ namespace LeetCode
             //solution.AddTwoNumbers(l1,l4);
 
             SolutionLengthOfLongestSubstring solution = new SolutionLengthOfLongestSubstring();
-            int a = solution.LengthOfLongestSubstring("  ");
+            int a = solution.LengthOfLongestSubstring("anviaj");
         }
     }
 }
