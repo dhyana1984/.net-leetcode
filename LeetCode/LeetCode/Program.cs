@@ -1,4 +1,5 @@
-﻿using LeetCode.Medium;
+﻿using LeetCode.Easy;
+using LeetCode.Medium;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,8 +24,8 @@ namespace LeetCode
             //l4.next = l5;l5.next = l6;
             //solution.AddTwoNumbers(l1,l4);
 
-            SolutionLengthOfLongestSubstring solution = new SolutionLengthOfLongestSubstring();
-            int a = solution.LengthOfLongestSubstring("anviaj");
+            SolutionIsPalindrome solution = new SolutionIsPalindrome();
+            bool a = solution.IsPalindrome(-121);
         }
     }
 }

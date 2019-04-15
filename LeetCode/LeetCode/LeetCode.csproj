@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\ReverseInt.cs" />
+    <Compile Include="Easy\SolutionIsPalindrome.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\LengthOfLongestSubstring.cs" />
     <Compile Include="Program.cs" />
