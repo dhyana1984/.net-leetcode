@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\ReverseInt.cs" />
     <Compile Include="Easy\RomanToInt.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />

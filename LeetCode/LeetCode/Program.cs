@@ -24,8 +24,14 @@ namespace LeetCode
             //l4.next = l5;l5.next = l6;
             //solution.AddTwoNumbers(l1,l4);
 
-            SolutionRomanToInt solution = new SolutionRomanToInt();
-            solution.RomanToInt("MCMXCIV");
+            SolutionLongestCommonPrefix solution = new SolutionLongestCommonPrefix();
+
+            /// solution.LongestCommonPrefix(new string[] { "a", "a","b"});
+            /// 
+            string a = "asdf";
+            string b = "asbgg";
+            b = b.Substring(0, b.Length - 1);
+            int p = a.IndexOf(b);
         }
     }
 }
