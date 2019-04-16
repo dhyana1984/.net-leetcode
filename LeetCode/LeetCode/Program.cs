@@ -24,8 +24,8 @@ namespace LeetCode
             //l4.next = l5;l5.next = l6;
             //solution.AddTwoNumbers(l1,l4);
 
-            SolutionIsPalindrome solution = new SolutionIsPalindrome();
-            bool a = solution.IsPalindrome(-121);
+            SolutionRomanToInt solution = new SolutionRomanToInt();
+            solution.RomanToInt("MCMXCIV");
         }
     }
 }
