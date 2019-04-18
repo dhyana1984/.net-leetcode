@@ -16,13 +16,25 @@ namespace UnitTest
         public void TestValidParentheses1()
         {
 
-      
-            dict["()"] = true;
 
+            dict["()"] = true;
+            dict["(()"] = false;
+            dict["[{({})}]"] = true;
+            dict["([)}"] = false;
+            dict["{[(}]}"] = false;
+            dict["{[([)}]]"] = false;
+            dict["{{{[[()]]}}}"] = true;
+            dict["       ()"] = true;
+            dict["(   {}  [])"] = true;
+            dict["{[({])}]"] = false;
+            dict["([[[[[]]]}})"] = false;
 
             SolutionValidParentheses solution = new SolutionValidParentheses();
-           
-            Assert.AreEqual(solution.IsValidParentheses("()"), dict["()"]);
+
+            foreach (var item in dict)
+            {
+                Assert.AreEqual(solution.IsValidParentheses(item.Key), dict[item.Key]);
+            }
 
 
         }
@@ -30,15 +42,15 @@ namespace UnitTest
         public void TestValidParentheses2()
         {
 
-          
+            string s = "(([]){})";
 
-            dict["()[]{}"] = true;
+            dict[s] = true;
 
 
             SolutionValidParentheses solution = new SolutionValidParentheses();
 
 
-            Assert.AreEqual(solution.IsValidParentheses("()[]{}"), dict["()[]{}"]);
+            Assert.AreEqual(solution.IsValidParentheses(s), dict[s]);
 
 
         }
