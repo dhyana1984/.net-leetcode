@@ -28,10 +28,7 @@ namespace LeetCode
 
             /// solution.LongestCommonPrefix(new string[] { "a", "a","b"});
             /// 
-            string a = "asdf";
-            string b = "asbgg";
-            b = b.Substring(0, b.Length - 1);
-            int p = a.IndexOf(b);
+            int a=1 % 2;
         }
     }
 }
