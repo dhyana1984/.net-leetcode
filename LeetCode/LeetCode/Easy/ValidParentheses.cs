@@ -40,15 +40,56 @@ namespace LeetCode.Easy
     {
         public bool IsValidParentheses(string s)
         {
-            s = s.Replace(" ", "");
-            while(s.Contains("()")|| s.Contains("[]")|| s.Contains("{}"))
+            //s = s.Replace(" ", "");
+            //while(s.Contains("()")|| s.Contains("[]")|| s.Contains("{}"))
+            //{
+            //    s=s.Replace("()", "");
+            //    s=s.Replace("[]", "");
+            //    s=s.Replace("{}", "");
+            //}
+
+            //return s == "";
+            
+            Dictionary<char,char> dict = new Dictionary<char, char>();
+            dict['('] = ')';
+            dict['['] = ']';
+            dict['{'] = '}';
+
+            Stack<char> stack = new Stack<char>();
+
+            for (int i = 0; i < s.Length; i++)
             {
-                s=s.Replace("()", "");
-                s=s.Replace("[]", "");
-                s=s.Replace("{}", "");
+                
+                char c = s[i];
+                if(dict.ContainsKey(c))
+                {
+                    //如果当前字符是左括号，则入栈
+                    stack.Push(c);
+
+                }
+                else
+                {
+                    if(stack.Count>0)
+                    { 
+                        //如果当前栈内有左括号，和当前字符比较是否是匹配的右括号，并弹出当前左括号
+                        char popChar = stack.Pop();
+                        //如果当前的字符不是栈内左括号匹配的右括号，则返回false
+                        if(c != ' '&&dict[popChar]!=c)
+                        {
+                            return false;
+                        }
+                    }
+                    else if(c!=' ')
+                    {
+                        //如果当前字符不是左括号而是右括号，并且栈内是空的，直接返回false
+                        return false;
+                    }
+                }
             }
 
-            return s == "";
+            //最后判断栈内是否清空
+            return stack.Count == 0;
+
         }
     }
 }

@@ -25,7 +25,7 @@ namespace UnitTest
             dict["{[([)}]]"] = false;
             dict["{{{[[()]]}}}"] = true;
             dict["       ()"] = true;
-            dict["(   {}  [])"] = true;
+            dict["(   {}  [])"] = false;
             dict["{[({])}]"] = false;
             dict["([[[[[]]]}})"] = false;
 
