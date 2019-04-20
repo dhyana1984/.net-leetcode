@@ -11,49 +11,31 @@ namespace LeetCode.Easy
 
         public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {
-
-            Dictionary<int, int> dict = new Dictionary<int, int>();
-            int index = 2;
-            if (l1.val <= l2.val)
+            ListNode result = new ListNode(0);
+            ListNode r = result;
+            while (l1 != null && l2 != null)
             {
-                dict[0] = l1.val;
-                dict[1] = l2.val;
+                if (l1.val <= l2.val)
+                {
+                    r.next = new ListNode(l1.val);
+                    l1 = l1.next;
+                }
+                else
+                {
+                    r.next = new ListNode(l2.val);
+                    l2 = l2.next;
+                }
+                r = r.next;
+            }
+            if (l1 == null)
+            {
+                r.next = l2;
             }
             else
             {
-                dict[0] = l2.val;
-                dict[1] = l1.val;
+                r.next = l1;
             }
-
-            while(l1.next != null)
-            {
-                while (l2.next != null)
-                {
-                    if (l1.val <= l2.val)
-                    {
-                        dict[index] = l1.val;
-                        dict[index + 1] = l2.val;
-                    }
-                    else
-                    {
-                        dict[index] = l2.val;
-                        dict[index + 1] = l1.val;
-                    }
-                }
-            }
-
-            ListNode resultNode = new ListNode(dict[0]);
-            if (dict.Count > 1)
-            {
-                resultNode.next = new ListNode(dict[1]);
-                for (int i = 1; i < dict.Count; i++)
-                {
-                    ListNode node = new ListNode(dict[i]);
-                    if (i < dict.Count-1)
-                        node.next = new ListNode(dict[i + 1]);
-                }
-            }
-            return resultNode;
+            return result.next;
         }
     }
     public class ListNode
