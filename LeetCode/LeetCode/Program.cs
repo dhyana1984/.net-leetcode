@@ -24,11 +24,12 @@ namespace LeetCode
             //l4.next = l5;l5.next = l6;
             //solution.AddTwoNumbers(l1,l4);
 
-            SolutionLongestCommonPrefix solution = new SolutionLongestCommonPrefix();
-
+            SolutionRemoveDuplicates solution = new SolutionRemoveDuplicates();
+            int[] b = {0,0,1,1,1,2,2,3,3,4};
+            int a = solution.RemoveDuplicates(b);
             /// solution.LongestCommonPrefix(new string[] { "a", "a","b"});
             /// 
-            int a=1 % 2;
+
         }
     }
 }
