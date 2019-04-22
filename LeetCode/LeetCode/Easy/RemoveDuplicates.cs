@@ -52,7 +52,7 @@ namespace LeetCode.Easy
             if (nums.Length == 2)
                 return nums[0] == nums[1] ? 1 : 2;
 
-            int count = 0;
+            //int count = 0;
             //for (int i = 0; i < nums.Length - 1; i++)
             //{
             //    for (int j = i + 1; j < nums.Length; j++)
@@ -72,6 +72,12 @@ namespace LeetCode.Easy
 
             //}
 
+            //可以放置两个指针 i 和 count，其中 count 是慢指针，而 i 是快指针。
+            //只要 nums[count] = nums[i]，就增加 i以跳过重复项。
+            //遇到 nums[i] != nums[count] 时，跳过重复项的运行已经结束，
+            //因此我们必须把它（nums[i]）的值复制到 nums[count+ 1]。然后递增 count，
+            //接着我们将再次重复相同的过程，直到 i 到达数组的末尾为止
+            int count = 0;
             for (int i = 1; i < nums.Length; i++)
             {
                 if(nums[i]!=nums[count])
@@ -82,7 +88,7 @@ namespace LeetCode.Easy
                 }
 
             }
-            return count;
+            return count+1;
 
         }
     }
