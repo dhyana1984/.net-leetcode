@@ -46,6 +46,7 @@
     <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\MergeTwoLists.cs" />
     <Compile Include="Easy\RemoveDuplicates.cs" />
+    <Compile Include="Easy\RemoveElement.cs" />
     <Compile Include="Easy\ReverseInt.cs" />
     <Compile Include="Easy\RomanToInt.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />

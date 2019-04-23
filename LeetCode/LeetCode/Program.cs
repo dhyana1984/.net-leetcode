@@ -24,9 +24,9 @@ namespace LeetCode
             //l4.next = l5;l5.next = l6;
             //solution.AddTwoNumbers(l1,l4);
 
-            SolutionRemoveDuplicates solution = new SolutionRemoveDuplicates();
-            int[] b = {1,1,2};
-            int a = solution.RemoveDuplicates(b);
+            SolutionRemoveElement solution = new SolutionRemoveElement();
+            int[] b = {2,2,2,1,2,2,2,2,2,1,2,1,2,2,1,2,1,2,1,1,1 };
+            int a = solution.RemoveElement(b,2);
             /// solution.LongestCommonPrefix(new string[] { "a", "a","b"});
             /// 
 
