@@ -54,6 +54,7 @@
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\LengthOfLongestSubstring.cs" />
+    <Compile Include="Medium\LongestPalindrome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
