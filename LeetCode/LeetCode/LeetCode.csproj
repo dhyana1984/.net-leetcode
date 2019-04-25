@@ -49,6 +49,7 @@
     <Compile Include="Easy\RemoveElement.cs" />
     <Compile Include="Easy\ReverseInt.cs" />
     <Compile Include="Easy\RomanToInt.cs" />
+    <Compile Include="Easy\SearchInsert.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
