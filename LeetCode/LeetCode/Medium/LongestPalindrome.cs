@@ -8,10 +8,10 @@ namespace LeetCode.Medium
 {
     public class SolutionLongestPalindrome
     {
-        public string LongestPalindrome(string s)
-        {
+    //    public string LongestPalindrome(string s)
+    //    {
             
 
-    }
+    //}
     }
 }
