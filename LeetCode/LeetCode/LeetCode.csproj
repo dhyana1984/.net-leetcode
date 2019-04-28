@@ -46,6 +46,7 @@
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\MergeTwoLists.cs" />
+    <Compile Include="Easy\PlusOne.cs" />
     <Compile Include="Easy\RemoveDuplicates.cs" />
     <Compile Include="Easy\RemoveElement.cs" />
     <Compile Include="Easy\ReverseInt.cs" />

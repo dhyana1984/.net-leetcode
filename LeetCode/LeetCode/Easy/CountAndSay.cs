@@ -19,15 +19,14 @@ namespace LeetCode.Easy
         public string Solution(int n)
         {
             string strCur = n == 1 ? "1" : "11";
-            string strTemp = "";
+            StringBuilder strTemp = new StringBuilder(); 
 
-            Dictionary<char, int> dict = new Dictionary<char, int>();
             if (n>2)
             {
                 for (int i = 2; i < n; i++)
                 {
                     int count = 1;
-                    strTemp = "";
+                    strTemp.Clear();
                     for (int j = 0; j < strCur.Length; j++)
                     {
                         if (j < strCur.Length - 1)
@@ -38,20 +37,23 @@ namespace LeetCode.Easy
                             }
                             else
                             {
-                                strTemp += count.ToString() + strCur[j].ToString();
+                                strTemp.Append(count.ToString());
+                                strTemp.Append(strCur[j].ToString());
                                 count = 1;
                             }
                         }
                         else
                         {
-                           strTemp += count.ToString() + strCur[j].ToString();
-                    
+                            strTemp.Append(count.ToString());
+                            strTemp.Append(strCur[j].ToString());
+
                         }
                         
                     }
-                    strCur = strTemp;
+                    strCur = strTemp.ToString();
                 }
             }
+
             return strCur;
             
             //List<int[]> list = new List<int[]>();
