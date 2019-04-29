@@ -13,10 +13,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-
-            int[] aaa = new int[]{ 1, 2, 3 };
-            string result = string.Join("",aaa);
-            aaa = aaa.Skip<int>(1).ToArray();
+            AddBinary addBinary = new AddBinary();
+            addBinary.Solution("0", "0");
         }
     }
 }
