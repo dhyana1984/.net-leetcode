@@ -13,8 +13,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            AddBinary addBinary = new AddBinary();
-            addBinary.Solution("0", "0");
+            SolutionMySqrt solution = new SolutionMySqrt();
+            solution.Solution(2147483647);
         }
     }
 }
