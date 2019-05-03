@@ -13,8 +13,13 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            SolutionMySqrt solution = new SolutionMySqrt();
-            solution.Solution(2147483647);
+            ListNode head = new ListNode(1);
+            head.next = new ListNode(1);
+            head.next.next = new ListNode(2);
+            head.next.next.next = new ListNode(3);
+            head.next.next.next.next = new ListNode(3);
+            DeleteListDuplicates solution = new DeleteListDuplicates();
+            solution.Solution(head);
         }
     }
 }

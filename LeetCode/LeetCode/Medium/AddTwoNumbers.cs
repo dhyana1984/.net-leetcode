@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.Easy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -44,11 +45,6 @@ namespace LeetCode.Medium
 
 
         }
-        public class ListNode
-        {
-            public int val;
-            public ListNode next = null;
-            public ListNode(int x) { val = x; }
-        }
+
     }
 }
