@@ -46,6 +46,7 @@
     <Compile Include="Easy\AddBinary.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\DeleteListDuplicates.cs" />
+    <Compile Include="Easy\IsSameTree.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\MergeSortedArray.cs" />
     <Compile Include="Easy\MergeTwoLists.cs" />
