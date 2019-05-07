@@ -48,6 +48,8 @@
     <Compile Include="Easy\DeleteListDuplicates.cs" />
     <Compile Include="Easy\IsSameTree.cs" />
     <Compile Include="Easy\IsSymmetric.cs" />
+    <Compile Include="Easy\LevelOrder.cs" />
+    <Compile Include="Easy\LevelOrderBottom.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\MaxDepth.cs" />
     <Compile Include="Easy\MergeSortedArray.cs" />
@@ -62,6 +64,7 @@
     <Compile Include="Easy\SolutionIsPalindrome.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
+    <Compile Include="Medium\BinTreeLevelOrder.cs" />
     <Compile Include="Medium\LengthOfLongestSubstring.cs" />
     <Compile Include="Medium\LongestPalindrome.cs" />
     <Compile Include="Program.cs" />

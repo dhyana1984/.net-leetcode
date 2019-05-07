@@ -14,17 +14,18 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(1);
-            t1.left = new TreeNode(2);
-            t1.right = new TreeNode(3);
+            TreeNode t1 = new TreeNode(3);
+            t1.left = new TreeNode(9);
+            t1.right = new TreeNode(20);
+            t1.right.left = new TreeNode(15);
+            t1.right.right = new TreeNode(7);
+            //TreeNode t2= new TreeNode(1);
+            //t2.left = new TreeNode(2);
+            //t2.right = new TreeNode(3); 
+            //t2.left.left = null;
 
-            TreeNode t2= new TreeNode(1);
-            t2.left = new TreeNode(2);
-            t2.right = new TreeNode(3); 
-            t2.left.left = null;
-     
-            IsSameTree solution = new IsSameTree();
-           bool aaaa= solution.Solution(t1,t2);
+            BinTreeLevelOrder solution = new BinTreeLevelOrder();
+           var aaaa= solution.Solution(t1);
         }
     }
 }
