@@ -14,17 +14,19 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(3);
-            t1.left = new TreeNode(9);
-            t1.right = new TreeNode(20);
-            t1.right.left = new TreeNode(15);
-            t1.right.right = new TreeNode(7);
-            //TreeNode t2= new TreeNode(1);
-            //t2.left = new TreeNode(2);
-            //t2.right = new TreeNode(3); 
-            //t2.left.left = null;
+            TreeNode t1 = new TreeNode(1);
+            t1.left = new TreeNode(1); ;
+            t1.right = new TreeNode(2);
 
-            BinTreeLevelOrder solution = new BinTreeLevelOrder();
+            //t1.left.left = new TreeNode(3);
+            //t1.left.right = new TreeNode(3);
+            t1.right.left = null;
+            t1.right.right = new TreeNode(3);
+            t1.right.right.left = new TreeNode(5);
+            //t1.left.left.left = new TreeNode(4);
+            //t1.left.left.right = new TreeNode(4);
+
+            SolutionIsBalanced solution = new SolutionIsBalanced();
            var aaaa= solution.Solution(t1);
         }
     }

@@ -46,6 +46,7 @@
     <Compile Include="Easy\AddBinary.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\DeleteListDuplicates.cs" />
+    <Compile Include="Easy\IsBalanced.cs" />
     <Compile Include="Easy\IsSameTree.cs" />
     <Compile Include="Easy\IsSymmetric.cs" />
     <Compile Include="Easy\LevelOrder.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Easy\RomanToInt.cs" />
     <Compile Include="Easy\SearchInsert.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />
+    <Compile Include="Easy\SortedArrayToBST.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\BinTreeLevelOrder.cs" />
