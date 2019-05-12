@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\AddBinary.cs" />
+    <Compile Include="Easy\BinTreeFindTilt.cs" />
     <Compile Include="Easy\BinTreeHasPathSum.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\DeleteListDuplicates.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Easy\SearchInsert.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />
     <Compile Include="Easy\SortedArrayToBST.cs" />
+    <Compile Include="Easy\UnivaluedBinaryTree.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\BinTreeLevelOrder.cs" />
