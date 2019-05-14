@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace LeetCode.Easy
 {
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int x) { val = x; }
+    }
     public class IsSameTree
     {
         
 
-        public class TreeNode
-        {
-            public int val;
-            public TreeNode left;
-            public TreeNode right;
-            public TreeNode(int x) { val = x; }
-        }
+
 
         public bool Solution(TreeNode p, TreeNode q)
         {
