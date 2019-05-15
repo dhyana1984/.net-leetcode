@@ -18,16 +18,16 @@ namespace LeetCode
             t1.left = new TreeNode(2); ;
             t1.right = new TreeNode(3);
 
-            t1.left.left = new TreeNode(4);
-
-            t1.right.left = new TreeNode(5);
+            //t1.left.left = new TreeNode(4);
+            t1.left.right = new TreeNode(5);
+            //t1.right.left = new TreeNode(5);
             //t1.right.right = new TreeNode(4);
             //t1.left.left.left = new TreeNode(7);
             //t1.left.left.right = new TreeNode(2);
             //t1.right.right.left = new TreeNode(1);
 
 
-            BinTreeFindTilt solution = new BinTreeFindTilt();
+            AllBinaryTreePaths solution = new AllBinaryTreePaths();
            var aaaa= solution.Solution(t1);
         }
     }

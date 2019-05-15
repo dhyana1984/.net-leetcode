@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\AddBinary.cs" />
+    <Compile Include="Easy\AllBinaryTreePaths.cs" />
     <Compile Include="Easy\BinTreeFindTilt.cs" />
     <Compile Include="Easy\BinTreeHasPathSum.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
