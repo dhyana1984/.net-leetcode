@@ -70,6 +70,7 @@
     <Compile Include="Easy\SearchInsert.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />
     <Compile Include="Easy\SortedArrayToBST.cs" />
+    <Compile Include="Easy\SumOfLeftLeaves.cs" />
     <Compile Include="Easy\UnivaluedBinaryTree.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
