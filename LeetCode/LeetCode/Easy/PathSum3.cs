@@ -35,9 +35,32 @@ namespace LeetCode.Easy
      */
     public class PathSum3
     {
-        public int Solution(TreeNode root, int sum)
-        {
+     
+            int result = 0;
+            public int PathSum(TreeNode root, int sum)
+            {
+                if (root == null) return 0;
+                FindNode(root, sum);
+                PathSum(root.left, sum);
+                PathSum(root.right, sum);
 
-        }
+                return result;
+
+            }
+
+            public void FindNode(TreeNode root, int sum)
+            {
+                if (root != null)
+                {
+                    sum -= root.val;
+                    if (sum == 0)
+                        result++;
+                    FindNode(root.left, sum);
+                    FindNode(root.right, sum);
+                }
+
+            }
+
+        
     }
 }
