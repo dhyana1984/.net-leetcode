@@ -14,12 +14,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(1);
-            t1.left = new TreeNode(2); ;
-            t1.right = new TreeNode(3);
+            TreeNode t1 = new TreeNode(2147483647);
+            //t1.left = new TreeNode(2); ;
+            //t1.right = new TreeNode(3);
 
             //t1.left.left = new TreeNode(4);
-            t1.left.right = new TreeNode(5);
+            //t1.left.right = new TreeNode(5);
             //t1.right.left = new TreeNode(5);
             //t1.right.right = new TreeNode(4);
             //t1.left.left.left = new TreeNode(7);
@@ -27,7 +27,7 @@ namespace LeetCode
             //t1.right.right.left = new TreeNode(1);
 
 
-            AllBinaryTreePaths solution = new AllBinaryTreePaths();
+            BinTreeFindMode solution = new BinTreeFindMode();
            var aaaa= solution.Solution(t1);
         }
     }
