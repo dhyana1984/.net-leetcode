@@ -50,6 +50,7 @@
     <Compile Include="Easy\BinTreeHasPathSum.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\DeleteListDuplicates.cs" />
+    <Compile Include="Easy\GetMinimumDifference.cs" />
     <Compile Include="Easy\InvertBinTree.cs" />
     <Compile Include="Easy\IsBalanced.cs" />
     <Compile Include="Easy\IsSameTree.cs" />

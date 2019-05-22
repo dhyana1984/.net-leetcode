@@ -30,31 +30,40 @@ namespace LeetCode.Easy
      */
     public class BinTreeFindMode
     {
+        Dictionary<int, int> result = new Dictionary<int, int>();
         public int[] Solution (TreeNode root)
         {
             if (root == null)
                 return new int[0];
             Dictionary<int, int> dict = new Dictionary<int, int>();
+
             dict[root.val] = dict.ContainsKey(root.val) ? dict[root.val] + 1 : 1;
+            result[root.val] = result.ContainsKey(root.val) ? result[root.val] + 1 : 1;
             FindNode(root, dict);
-            return dict.Keys.Where(t => dict[t] == dict.Values.Max()).ToArray();
+            return result.Keys.Where(t => result[t] == result.Values.Max()).ToArray();
         }
 
 
         private int FindNode(TreeNode node, Dictionary<int, int> dict)
         {
             if (node == null) return 0;
-        
+
             if (node.left != null)
             {
                 int left = FindNode(node.left, dict);
                 dict[left] = dict.ContainsKey(left) ? dict[left] + 1 : 1;
+                if (dict[left] >= result.Values.Max())
+                    result[left] = dict[left];
             }
             if (node.right != null)
             {
                 int right = FindNode(node.right, dict);
                 dict[right] = dict.ContainsKey(right) ? dict[right] + 1 : 1;
+                if (dict[right] >= result.Values.Max())
+                    result[right] = dict[right];
             }
+
+
             return node.val;
 
 
