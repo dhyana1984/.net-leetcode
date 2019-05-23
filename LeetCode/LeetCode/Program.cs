@@ -14,12 +14,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(5);
-            t1.left = new TreeNode(4); ;
-            t1.right = new TreeNode(7);
+            TreeNode t1 = new TreeNode(2);
+            t1.left = new TreeNode(0); ;
+            t1.right = new TreeNode(3);
 
-            //t1.left.left = new TreeNode(4);
-            //t1.left.right = new TreeNode(5);
+            t1.left.left = new TreeNode(-4);
+            t1.left.right = new TreeNode(1);
             //t1.right.left = new TreeNode(5);
             //t1.right.right = new TreeNode(4);
             //t1.left.left.left = new TreeNode(7);
@@ -27,7 +27,7 @@ namespace LeetCode
             //t1.right.right.left = new TreeNode(1);
 
 
-            GetMinimumDifference solution = new GetMinimumDifference();
+            ConvertBST solution = new ConvertBST();
            var aaaa= solution.Solution(t1);
         }
     }

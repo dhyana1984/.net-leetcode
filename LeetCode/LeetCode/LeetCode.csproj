@@ -48,6 +48,7 @@
     <Compile Include="Easy\BinTreeFindMode.cs" />
     <Compile Include="Easy\BinTreeFindTilt.cs" />
     <Compile Include="Easy\BinTreeHasPathSum.cs" />
+    <Compile Include="Easy\ConvertBST.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\DeleteListDuplicates.cs" />
     <Compile Include="Easy\GetMinimumDifference.cs" />
