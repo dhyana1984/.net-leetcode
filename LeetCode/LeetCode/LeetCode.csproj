@@ -61,6 +61,7 @@
     <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\LowestCommonAncestor.cs" />
     <Compile Include="Easy\MaxDepth.cs" />
+    <Compile Include="Easy\MaxDepthForNAryTree.cs" />
     <Compile Include="Easy\MergeSortedArray.cs" />
     <Compile Include="Easy\MergeTwoLists.cs" />
     <Compile Include="Easy\Minimum Depth of Binary Tree.cs" />

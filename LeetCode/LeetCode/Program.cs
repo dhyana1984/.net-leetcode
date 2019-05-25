@@ -29,6 +29,9 @@ namespace LeetCode
 
             ConvertBST solution = new ConvertBST();
            var aaaa= solution.Solution(t1);
+
+            List<int> list = new List<int> { 1, 2, 3, 5 };
+            var a = list.Max();
         }
     }
 }
