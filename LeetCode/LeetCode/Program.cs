@@ -14,24 +14,33 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(2);
-            t1.left = new TreeNode(0); ;
-            t1.right = new TreeNode(3);
+            TreeNode t1 = new TreeNode(3);
+            t1.left = new TreeNode(4); ;
+            t1.right = new TreeNode(5);
 
-            t1.left.left = new TreeNode(-4);
-            t1.left.right = new TreeNode(1);
+            t1.left.left = new TreeNode(1);
+            t1.right.right = new TreeNode(2);
             //t1.right.left = new TreeNode(5);
             //t1.right.right = new TreeNode(4);
-            //t1.left.left.left = new TreeNode(7);
+            //t1.left.left.left = new TreeNode(0);
             //t1.left.left.right = new TreeNode(2);
-            //t1.right.right.left = new TreeNode(1);
+            //t1.left.right.left = new TreeNode(0);
+            //t1.right.right.right = new TreeNode(1);
+            ////t1.right.right.left = new TreeNode(1);
+            //t1.right.right.right.left = new TreeNode(1);
+            //t1.right.right.right.right = new TreeNode(2);
+
+            TreeNode t2 = new TreeNode(4);
+            t2.left = new TreeNode(1);
+            t2.right = new TreeNode(2);
+
+            //t2.right.right = new TreeNode(1);
+            //t2.right.right.left= new TreeNode(1);
+            //t2.right.right.right = new TreeNode(2);
 
 
-            ConvertBST solution = new ConvertBST();
-           var aaaa= solution.Solution(t1);
-
-            List<int> list = new List<int> { 1, 2, 3, 5 };
-            var a = list.Max();
+            SubtreeofAnotherTree solution = new SubtreeofAnotherTree();
+           var aaaa= solution.Solution(t1,t2);
         }
     }
 }

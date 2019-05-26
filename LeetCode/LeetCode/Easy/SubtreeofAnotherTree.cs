@@ -43,53 +43,31 @@ namespace LeetCode.Easy
      */
     public class SubtreeofAnotherTree
     {
-        public bool IsSubtree(TreeNode s, TreeNode t)
+        public bool Solution(TreeNode s, TreeNode t)
         {
-            Queue<TreeNode> queueS = new Queue<TreeNode>();
-            Queue<TreeNode> queueT = new Queue<TreeNode>();
-            queueS.Enqueue(s);
-            queueT.Enqueue(t);
-            TreeNode nodeS;
-            TreeNode nodeT;
-            while (queueS.Any())
-            {
-                nodeS = queueS.Dequeue();
-
-                var flag = IsTheSame(nodeS, queueT);
-                if (!flag)
-                {
-                    queueT = new Queue<TreeNode>();
-                    queueT.Enqueue(t);
-                }
-                if (!queueT.Any() && nodeS.left == null && nodeS.right == null)
-                {
-                    return true;
-
-                }
-                if (nodeS.left != null)
-                    queueS.Enqueue(nodeS.left);
-                if (nodeS.right != null)
-                    queueS.Enqueue(nodeS.right);
-            }
-
-            return false;
-        }
-
-        private bool IsTheSame(TreeNode nodeS, Queue<TreeNode> queueT)
-        {
-            var nodeT = queueT.Dequeue();
-            if (nodeS.val == nodeT.val)
-            {
-
-                if (nodeT.left != null)
-                    queueT.Enqueue(nodeT.left);
-                if (nodeT.right != null)
-                    queueT.Enqueue(nodeT.right);
-
+            if (s == null && t == null)
                 return true;
+            if (s != null && t != null)//s,t都不能为空的情况才能递归
+            {
+                if (s.val == t.val && IsSame(s, t))//当此时s和t值一致才判断是否是子树
+                    return true;
+                if (Solution(s.left, t) || Solution(s.right, t))//递归s的左右子树
+                    return true;
             }
             return false;
+
+
         }
+        //判断是否是一样结构的树
+        public bool IsSame(TreeNode s, TreeNode t)
+        {
+            if (s == null && t == null)
+                return true;
+            if (s != null && t != null && s.val == t.val)
+                return IsSame(s.left, t.left) && IsSame(s.right, t.right);
+            return false;
+        }
+
 
     }
 }
