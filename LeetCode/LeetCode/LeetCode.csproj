@@ -66,6 +66,7 @@
     <Compile Include="Easy\MergeTwoLists.cs" />
     <Compile Include="Easy\Minimum Depth of Binary Tree.cs" />
     <Compile Include="Easy\MySqrt.cs" />
+    <Compile Include="Easy\N-aryTreePreorderTraversal.cs" />
     <Compile Include="Easy\PathSum3.cs" />
     <Compile Include="Easy\PlusOne.cs" />
     <Compile Include="Easy\RemoveDuplicates.cs" />
