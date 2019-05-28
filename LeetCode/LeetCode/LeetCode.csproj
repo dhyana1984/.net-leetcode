@@ -80,6 +80,7 @@
     <Compile Include="Easy\SortedArrayToBST.cs" />
     <Compile Include="Easy\SubtreeofAnotherTree.cs" />
     <Compile Include="Easy\SumOfLeftLeaves.cs" />
+    <Compile Include="Easy\Tree2str.cs" />
     <Compile Include="Easy\UnivaluedBinaryTree.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
