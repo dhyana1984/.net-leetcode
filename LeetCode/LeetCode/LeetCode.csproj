@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Difficult\PostorderTraversal.cs" />
     <Compile Include="Easy\AddBinary.cs" />
     <Compile Include="Easy\AllBinaryTreePaths.cs" />
     <Compile Include="Easy\BinTreeFindMode.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Easy\MergeTwoLists.cs" />
     <Compile Include="Easy\Minimum Depth of Binary Tree.cs" />
     <Compile Include="Easy\MySqrt.cs" />
+    <Compile Include="Easy\N-aryTreePostorderTraversal.cs" />
     <Compile Include="Easy\N-aryTreePreorderTraversal.cs" />
     <Compile Include="Easy\PathSum3.cs" />
     <Compile Include="Easy\PlusOne.cs" />
