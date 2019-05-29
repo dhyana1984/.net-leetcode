@@ -46,6 +46,7 @@
     <Compile Include="Difficult\PostorderTraversal.cs" />
     <Compile Include="Easy\AddBinary.cs" />
     <Compile Include="Easy\AllBinaryTreePaths.cs" />
+    <Compile Include="Easy\AverageOfLevels.cs" />
     <Compile Include="Easy\BinTreeFindMode.cs" />
     <Compile Include="Easy\BinTreeFindTilt.cs" />
     <Compile Include="Easy\BinTreeHasPathSum.cs" />
