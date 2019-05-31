@@ -53,6 +53,7 @@
     <Compile Include="Easy\ConvertBST.cs" />
     <Compile Include="Easy\CountAndSay.cs" />
     <Compile Include="Easy\DeleteListDuplicates.cs" />
+    <Compile Include="Easy\FindSecondMinimumValue.cs" />
     <Compile Include="Easy\FindSumInBST.cs" />
     <Compile Include="Easy\GetMinimumDifference.cs" />
     <Compile Include="Easy\InvertBinTree.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Easy\SubtreeofAnotherTree.cs" />
     <Compile Include="Easy\SumOfLeftLeaves.cs" />
     <Compile Include="Easy\Tree2str.cs" />
+    <Compile Include="Easy\TrimBinarySearchTree.cs" />
     <Compile Include="Easy\UnivaluedBinaryTree.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
