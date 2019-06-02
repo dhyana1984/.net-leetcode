@@ -63,6 +63,7 @@
     <Compile Include="Easy\LevelOrder.cs" />
     <Compile Include="Easy\LevelOrderBottom.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />
+    <Compile Include="Easy\LongestUnivaluePath.cs" />
     <Compile Include="Easy\LowestCommonAncestor.cs" />
     <Compile Include="Easy\MaxDepth.cs" />
     <Compile Include="Easy\MaxDepthForNAryTree.cs" />
