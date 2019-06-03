@@ -70,6 +70,7 @@
     <Compile Include="Easy\MergeSortedArray.cs" />
     <Compile Include="Easy\MergeTrees.cs" />
     <Compile Include="Easy\MergeTwoLists.cs" />
+    <Compile Include="Easy\MinDiffInBST.cs" />
     <Compile Include="Easy\Minimum Depth of Binary Tree.cs" />
     <Compile Include="Easy\MySqrt.cs" />
     <Compile Include="Easy\N-aryTreePostorderTraversal.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Easy\RemoveElement.cs" />
     <Compile Include="Easy\ReverseInt.cs" />
     <Compile Include="Easy\RomanToInt.cs" />
+    <Compile Include="Easy\SearchChildBST.cs" />
     <Compile Include="Easy\SearchInsert.cs" />
     <Compile Include="Easy\SolutionIsPalindrome.cs" />
     <Compile Include="Easy\SortedArrayToBST.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Easy\TrimBinarySearchTree.cs" />
     <Compile Include="Easy\UnivaluedBinaryTree.cs" />
     <Compile Include="Easy\ValidParentheses.cs" />
+    <Compile Include="Helper\TreeGenerater.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\BinTreeLevelOrder.cs" />
     <Compile Include="Medium\LengthOfLongestSubstring.cs" />
