@@ -15,20 +15,20 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(5);
-            t1.left = new TreeNode(3); ;
-            t1.right = new TreeNode(6);
+            TreeNode t1 = new TreeNode(1);
+            t1.left = new TreeNode(0); ;
+            t1.right = new TreeNode(1);
 
-            t1.left.left = new TreeNode(2);
-            t1.left.right = new TreeNode(4);
-            //t1.right.left = new TreeNode(4);
-            t1.right.right = new TreeNode(8);
-            t1.left.left.left = new TreeNode(1);
+            t1.left.left = new TreeNode(0);
+            t1.left.right = new TreeNode(1);
+            t1.right.left = new TreeNode(0);
+            t1.right.right = new TreeNode(1);
+            //t1.left.left.left = new TreeNode(1);
             //t1.left.left.right = new TreeNode(2);
             //t1.left.right.left = new TreeNode(0);
             //t1.right.right.right = new TreeNode(1);
-            t1.right.right.left = new TreeNode(7);
-            t1.right.right.right = new TreeNode(9);
+            //t1.right.right.left = new TreeNode(7);
+            //t1.right.right.right = new TreeNode(9);
             //t1.right.right.right.left = new TreeNode(1);
             //t1.right.right.right.right = new TreeNode(2);
 
@@ -41,7 +41,7 @@ namespace LeetCode
             //t2.right.right.right = new TreeNode(2);
 
             //TreeNode root =TreeGenerater.GetRoot(new List<int?>() { 90, 69, null, 49, 89, null, 52, null, null, null, null});
-            IncreasingBST solution = new IncreasingBST();
+            SumRootToLeaf solution = new SumRootToLeaf();
            var aaaa= solution.Solution(t1);
         }
     }

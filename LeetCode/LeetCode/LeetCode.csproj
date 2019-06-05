@@ -59,6 +59,7 @@
     <Compile Include="Easy\IncreasingBST.cs" />
     <Compile Include="Easy\InvertBinTree.cs" />
     <Compile Include="Easy\IsBalanced.cs" />
+    <Compile Include="Easy\IsCousinsNode.cs" />
     <Compile Include="Easy\IsSameTree.cs" />
     <Compile Include="Easy\IsSymmetric.cs" />
     <Compile Include="Easy\LeafSimilar.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Easy\SortedArrayToBST.cs" />
     <Compile Include="Easy\SubtreeofAnotherTree.cs" />
     <Compile Include="Easy\SumOfLeftLeaves.cs" />
+    <Compile Include="Easy\SumRootToLeaf.cs" />
     <Compile Include="Easy\Tree2str.cs" />
     <Compile Include="Easy\TrimBinarySearchTree.cs" />
     <Compile Include="Easy\UnivaluedBinaryTree.cs" />
