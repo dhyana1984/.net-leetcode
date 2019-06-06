@@ -1,4 +1,5 @@
-﻿using LeetCode.Easy;
+﻿using LeetCode.Biby;
+using LeetCode.Easy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -73,7 +74,7 @@ namespace UnitTest
         public void TestValidParentheses4()
         {
 
-          
+
 
             dict["([)]"] = false;
 
@@ -89,7 +90,7 @@ namespace UnitTest
         public void TestValidParentheses5()
         {
 
-     
+
 
             dict["{[]}"] = true;
 
@@ -98,6 +99,17 @@ namespace UnitTest
 
             Assert.AreEqual(solution.IsValidParentheses("{[]}"), dict["{[]}"]);
 
+        }
+        [TestMethod]
+        public void TestMatchAmount()
+        {
+            List<int> list1 = new List<int> { 500 };
+            List<int> list2 = new List<int> { 100, 200, 300, 400, 500, 150, 250 };
+
+
+            GetMatchAmountList solution = new GetMatchAmountList();
+
+       
         }
     }
 }

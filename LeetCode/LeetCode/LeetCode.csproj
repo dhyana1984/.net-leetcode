@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Biby\MatchAmount.cs" />
     <Compile Include="Difficult\PostorderTraversal.cs" />
     <Compile Include="Easy\AddBinary.cs" />
     <Compile Include="Easy\AllBinaryTreePaths.cs" />

@@ -1,4 +1,5 @@
-﻿using LeetCode.Easy;
+﻿using LeetCode.Biby;
+using LeetCode.Easy;
 using LeetCode.Helper;
 using LeetCode.Medium;
 using System;
@@ -41,8 +42,16 @@ namespace LeetCode
             //t2.right.right.right = new TreeNode(2);
 
             //TreeNode root =TreeGenerater.GetRoot(new List<int?>() { 90, 69, null, 49, 89, null, 52, null, null, null, null});
-            SumRootToLeaf solution = new SumRootToLeaf();
-           var aaaa= solution.Solution(t1);
+            // SumRootToLeaf solution = new SumRootToLeaf();
+            //var aaaa= solution.Solution(t1);
+
+
+            GetMatchAmountList solution = new GetMatchAmountList();
+            List<int> list1 = new List<int> { 500,600,200,300,550 };
+            List<int> list2 = new List<int> { 100, 200, 300, 400, 500, 150, 250 };
+
+            var result1 = solution.Solution(list1, list2);
+            var result2 = solution.Solution(list2, list1);
         }
     }
 }
