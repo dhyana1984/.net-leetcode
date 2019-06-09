@@ -17,13 +17,13 @@ namespace LeetCode
         static void Main(string[] args)
         {
             TreeNode t1 = new TreeNode(1);
-            t1.left = new TreeNode(0); ;
-            t1.right = new TreeNode(1);
+            t1.left = new TreeNode(2); ;
+            t1.right = new TreeNode(3);
 
-            t1.left.left = new TreeNode(0);
-            t1.left.right = new TreeNode(1);
-            t1.right.left = new TreeNode(0);
-            t1.right.right = new TreeNode(1);
+            t1.left.left = new TreeNode(4);
+            //t1.left.right = new TreeNode(1);
+            //t1.right.left = new TreeNode(5);
+            t1.right.right = new TreeNode(5);
             //t1.left.left.left = new TreeNode(1);
             //t1.left.left.right = new TreeNode(2);
             //t1.left.right.left = new TreeNode(0);
@@ -41,17 +41,17 @@ namespace LeetCode
             //t2.right.right.left= new TreeNode(1);
             //t2.right.right.right = new TreeNode(2);
 
-            //TreeNode root =TreeGenerater.GetRoot(new List<int?>() { 90, 69, null, 49, 89, null, 52, null, null, null, null});
-            // SumRootToLeaf solution = new SumRootToLeaf();
-            //var aaaa= solution.Solution(t1);
+            //TreeNode root = TreeGenerater.GetRoot(new List<int?>() { 90, 69, null, 49, 89, null, 52, null, null, null, null });
+            ZigzagLevelOrder solution = new ZigzagLevelOrder();
+            var aaaa = solution.Solution(t1);
 
 
-            GetMatchAmountList solution = new GetMatchAmountList();
-            List<int> list1 = new List<int> { 500,600,200,300,550 };
-            List<int> list2 = new List<int> { 100, 200, 300, 400, 500, 150, 250 };
+            //GetMatchAmountList solution = new GetMatchAmountList();
+            //List<int> list1 = new List<int> { 500,600,200,300,550 };
+            //List<int> list2 = new List<int> { 100, 200, 300, 400, 500, 150, 250 };
 
-            var result1 = solution.Solution(list1, list2);
-            var result2 = solution.Solution(list2, list1);
+            //var result1 = solution.Solution(list1, list2);
+            //var result2 = solution.Solution(list2, list1);
         }
     }
 }
