@@ -42,10 +42,10 @@ namespace LeetCode
             //t2.right.right.right = new TreeNode(2);
 
             //TreeNode root = TreeGenerater.GetRoot(new List<int?>() { 90, 69, null, 49, 89, null, 52, null, null, null, null });
-            PreOrderInOrderBuildTree solution = new PreOrderInOrderBuildTree();
-            int[] a1 = { 3, 9, 20, 15, 7 };
-            int[] a2 = { 9, 3, 15, 20, 7 };
-            var aaaa = solution.BuildTree(a1, a2);
+            InOrderPostOrderBuildTree solution = new InOrderPostOrderBuildTree();
+            int[] a1 = new int[]{ 9, 3, 15, 20, 7 };
+            int[] a2 = new int[] { 9, 15, 7, 20, 3 };
+            var aaaa = solution.BuildTree(a1,a2);
 
 
             //GetMatchAmountList solution = new GetMatchAmountList();
