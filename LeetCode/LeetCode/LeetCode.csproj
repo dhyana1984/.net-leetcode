@@ -106,6 +106,8 @@
     <Compile Include="Medium\LongestPalindrome.cs" />
     <Compile Include="Medium\NumTrees.cs" />
     <Compile Include="Medium\PreOrderInOrderBuildTree.cs" />
+    <Compile Include="Medium\PreOrderPostOrderBuildTree.cs" />
+    <Compile Include="Medium\TreePathSum.cs" />
     <Compile Include="Medium\ValidateBinarySearchTree.cs" />
     <Compile Include="Medium\ZigzagLevelOrder.cs" />
     <Compile Include="Program.cs" />
