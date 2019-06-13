@@ -2,6 +2,7 @@
 using LeetCode.Easy;
 using LeetCode.Helper;
 using LeetCode.Medium;
+using LeetCode.Medium.Tree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,20 +17,20 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(5);
-            t1.left = new TreeNode(4); ;
-            t1.right = new TreeNode(8);
+            TreeNode t1 = new TreeNode(1);
+            t1.left = new TreeNode(2); ;
+            t1.right = new TreeNode(5);
 
-            t1.left.left = new TreeNode(11);
-            //t1.left.right = new TreeNode(13);
-            t1.right.left = new TreeNode(13);
-            t1.right.right = new TreeNode(4);
-            t1.left.left.left = new TreeNode(7);
-            t1.left.left.right = new TreeNode(2);
-            //t1.left.right.left = new TreeNode(5);
-            t1.right.right.left = new TreeNode(5);
-            t1.right.right.right = new TreeNode(1);
-     
+            t1.left.left = new TreeNode(3);
+            t1.left.right = new TreeNode(4);
+            //t1.right.left = new TreeNode(13);
+            t1.right.right = new TreeNode(6);
+            //t1.left.left.left = new TreeNode(7);
+            //t1.left.left.right = new TreeNode(2);
+            ////t1.left.right.left = new TreeNode(5);
+            //t1.right.right.left = new TreeNode(5);
+            //t1.right.right.right = new TreeNode(1);
+
             //t1.right.right.right = new TreeNode(9);
             //t1.right.right.right.left = new TreeNode(1);
             //t1.right.right.right.right = new TreeNode(2);
@@ -47,8 +48,8 @@ namespace LeetCode
             //int[] a1 = new int[]{ 9, 3, 15, 20, 7 };
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
-            TreePathSum solution = new TreePathSum();
-            var result =solution.Solution(t1,22);
+            TreeToLinkTable solution = new TreeToLinkTable();
+            solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };
