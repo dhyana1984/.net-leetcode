@@ -100,10 +100,12 @@
     <Compile Include="Helper\TreeGenerater.cs" />
     <Compile Include="Medium\AddTwoNumbers.cs" />
     <Compile Include="Medium\Tree\BinTreeLevelOrder.cs" />
+    <Compile Include="Medium\Tree\CountNodes.cs" />
     <Compile Include="Medium\Tree\GenerateBST.cs" />
     <Compile Include="Medium\Tree\InOrderPostOrderBuildTree.cs" />
     <Compile Include="Medium\String\LengthOfLongestSubstring.cs" />
     <Compile Include="Medium\String\LongestPalindrome.cs" />
+    <Compile Include="Medium\Tree\KthSmallest.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PreOrderPostOrderBuildTree.cs" />
