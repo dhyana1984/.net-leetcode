@@ -52,6 +52,7 @@
     <Compile Include="Easy\Tree\BinTreeFindMode.cs" />
     <Compile Include="Easy\Tree\BinTreeFindTilt.cs" />
     <Compile Include="Easy\Tree\BinTreeHasPathSum.cs" />
+    <Compile Include="Easy\Tree\ClosestValueForBST.cs" />
     <Compile Include="Easy\Tree\ConvertBST.cs" />
     <Compile Include="Easy\Tree\CountAndSay.cs" />
     <Compile Include="Easy\Tree\DeleteListDuplicates.cs" />
