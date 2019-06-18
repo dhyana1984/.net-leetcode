@@ -107,6 +107,8 @@
     <Compile Include="Medium\Tree\InOrderPostOrderBuildTree.cs" />
     <Compile Include="Medium\String\LengthOfLongestSubstring.cs" />
     <Compile Include="Medium\String\LongestPalindrome.cs" />
+    <Compile Include="Medium\Tree\InorderSuccessor1.cs" />
+    <Compile Include="Medium\Tree\InorderSuccessor2.cs" />
     <Compile Include="Medium\Tree\KthSmallest.cs" />
     <Compile Include="Medium\Tree\LowestCommonAncestorForBT.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />
