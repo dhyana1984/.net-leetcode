@@ -33,7 +33,6 @@ namespace LeetCode.Medium.Tree
     public class LargestBSTSubtree
     {
         int result = 0;
-        int count = 0;
         List<int> list = new List<int>();
         public int Solution(TreeNode root)
         {

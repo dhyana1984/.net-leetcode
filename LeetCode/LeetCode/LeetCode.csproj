@@ -103,6 +103,7 @@
     <Compile Include="Medium\Tree\BinTreeLevelOrder.cs" />
     <Compile Include="Medium\Tree\CountNodes.cs" />
     <Compile Include="Medium\Tree\CountUnivalSubtrees.cs" />
+    <Compile Include="Medium\Tree\FindLeaves.cs" />
     <Compile Include="Medium\Tree\GenerateBST.cs" />
     <Compile Include="Medium\Tree\InOrderPostOrderBuildTree.cs" />
     <Compile Include="Medium\String\LengthOfLongestSubstring.cs" />
