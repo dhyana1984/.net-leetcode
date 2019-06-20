@@ -110,6 +110,7 @@
     <Compile Include="Medium\Tree\InorderSuccessor1.cs" />
     <Compile Include="Medium\Tree\InorderSuccessor2.cs" />
     <Compile Include="Medium\Tree\KthSmallest.cs" />
+    <Compile Include="Medium\Tree\LargestBSTSubtree.cs" />
     <Compile Include="Medium\Tree\LongestConsecutive.cs" />
     <Compile Include="Medium\Tree\LowestCommonAncestorForBT.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />

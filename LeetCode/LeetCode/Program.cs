@@ -17,14 +17,14 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(5);
-            t1.left = new TreeNode(2); 
-            t1.right = new TreeNode(1);
-            t1.left.left = new TreeNode(3);
+            TreeNode t1 = new TreeNode(10);
+            t1.left = new TreeNode(5); 
+            t1.right = new TreeNode(15);
+            t1.left.left = new TreeNode(1);
             
-            t1.left.right = new TreeNode(6);
+            t1.left.right = new TreeNode(8);
             //t1.right.left = new TreeNode(0);
-            //t1.right.right = new TreeNode(6);
+            t1.right.right = new TreeNode(7);
             //t1.left.right.left = new TreeNode(7);
             //t1.left.right.right = new TreeNode(4);
             //t1.left.left.left = new TreeNode(0);
@@ -59,8 +59,8 @@ namespace LeetCode
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
             var aaa = new int[] { 1,3,2};
-            VerifyPreorderBST solution = new VerifyPreorderBST();
-            var result = solution.Solution(aaa);
+            LargestBSTSubtree solution = new LargestBSTSubtree();
+            var result = solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };
