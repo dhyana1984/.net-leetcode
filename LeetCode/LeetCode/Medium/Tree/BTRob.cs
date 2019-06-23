@@ -11,7 +11,6 @@ namespace LeetCode.Medium.Tree
         List<int> list2 = new List<int>();
         int sum1 = 0;
         int sum2 = 0;
-        bool flag = true;
         TreeNode theRoot = null;
         Dictionary<TreeNode, bool> dict = new Dictionary<TreeNode, bool>();
         public int Solution(TreeNode root)
