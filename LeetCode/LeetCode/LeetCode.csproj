@@ -104,6 +104,7 @@
     <Compile Include="Medium\Tree\BTRob.cs" />
     <Compile Include="Medium\Tree\CountNodes.cs" />
     <Compile Include="Medium\Tree\CountUnivalSubtrees.cs" />
+    <Compile Include="Medium\Tree\DeleteNode.cs" />
     <Compile Include="Medium\Tree\FindLeaves.cs" />
     <Compile Include="Medium\Tree\GenerateBST.cs" />
     <Compile Include="Medium\Tree\InOrderPostOrderBuildTree.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Medium\Tree\NumTrees.cs" />
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PreOrderPostOrderBuildTree.cs" />
+    <Compile Include="Medium\Tree\SerializeAndDeserializeTree.cs" />
     <Compile Include="Medium\Tree\SumNumbers.cs" />
     <Compile Include="Medium\Tree\TreeLinkNode.cs" />
     <Compile Include="Medium\Tree\TreePathSum.cs" />
