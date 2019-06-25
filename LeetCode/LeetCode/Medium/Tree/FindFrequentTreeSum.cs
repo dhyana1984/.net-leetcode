@@ -38,8 +38,6 @@ namespace LeetCode.Medium.Tree
     {
         List<int> list = new List<int>();
         Dictionary<int, int> dict = new Dictionary<int, int>();
-        int last=int.MinValue;
-        int max = int.MinValue;
         public int[] Solution(TreeNode root)
         {
             preOrder(root, 0);
