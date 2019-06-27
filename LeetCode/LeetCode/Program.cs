@@ -59,8 +59,8 @@ namespace LeetCode
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
             var aaa = new int[] { 1,3,2};
-            FindFrequentTreeSum solution = new FindFrequentTreeSum();
-            var result = solution.Solution(t1);
+            Str2tree solution = new Str2tree();
+            var result = solution.Solution("-4(2(3)(1))(6(5)(7))");
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };

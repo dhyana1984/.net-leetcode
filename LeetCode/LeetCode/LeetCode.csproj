@@ -123,6 +123,7 @@
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PreOrderPostOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\SerializeAndDeserializeTree.cs" />
+    <Compile Include="Medium\Tree\Str2tree.cs" />
     <Compile Include="Medium\Tree\SumNumbers.cs" />
     <Compile Include="Medium\Tree\TreeLinkNode.cs" />
     <Compile Include="Medium\Tree\TreePathSum.cs" />
