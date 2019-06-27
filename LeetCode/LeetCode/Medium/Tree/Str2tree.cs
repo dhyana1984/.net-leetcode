@@ -19,18 +19,18 @@ namespace LeetCode.Medium.Tree
             var rootVal = index < 0 ? int.Parse(s) : int.Parse(s.Substring(0, index));
             var root = new TreeNode(rootVal);
             int length = s.Length;
-            int cur = 0;
+            int brackets = 0;
             var start = index;
             if (index > 0)
                 for (int i = start; i < length; i++)
                 {
                     {
                         if (s[i] == '(')
-                            ++cur;
+                            ++brackets;
                         else if (s[i] == ')')
-                            --cur;
+                            --brackets;
 
-                        if (cur == 0 && start == index)
+                        if (brackets == 0 && start == index)
                         {
                             /*
                              * start + 1是第一个左括号"("的后一位，即左子树的根
@@ -41,7 +41,7 @@ namespace LeetCode.Medium.Tree
                             root.left = Solution(s.Substring(start + 1, i - start - 1)); 
                             start = i + 1;
                         }
-                        else if (cur == 0)
+                        else if (brackets == 0)
                         {
                             root.right = Solution(s.Substring(start + 1, i - start - 1));
                         }
