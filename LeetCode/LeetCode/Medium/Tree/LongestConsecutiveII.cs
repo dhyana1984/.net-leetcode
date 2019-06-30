@@ -38,8 +38,7 @@ namespace LeetCode.Medium.Tree
      */
     public class LongestConsecutiveII
     {
-        int max = int.MinValue;
-        int count = 1;
+
         public int Solution(TreeNode root)
         {
             if (root == null)
