@@ -119,6 +119,7 @@
     <Compile Include="Medium\Tree\LargestBSTSubtree.cs" />
     <Compile Include="Medium\Tree\LargestValues.cs" />
     <Compile Include="Medium\Tree\LongestConsecutive.cs" />
+    <Compile Include="Medium\Tree\LongestConsecutiveII.cs" />
     <Compile Include="Medium\Tree\LowestCommonAncestorForBT.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
