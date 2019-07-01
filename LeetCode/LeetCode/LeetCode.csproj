@@ -107,6 +107,7 @@
     <Compile Include="Medium\Tree\CountUnivalSubtrees.cs" />
     <Compile Include="Medium\Tree\DeleteNode.cs" />
     <Compile Include="Medium\Tree\FindBottomLeftValue.cs" />
+    <Compile Include="Medium\Tree\FindDuplicateSubtrees.cs" />
     <Compile Include="Medium\Tree\FindFrequentTreeSum.cs" />
     <Compile Include="Medium\Tree\FindLeaves.cs" />
     <Compile Include="Medium\Tree\GenerateBST.cs" />
