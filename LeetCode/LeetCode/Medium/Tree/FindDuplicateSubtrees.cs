@@ -40,21 +40,21 @@ namespace LeetCode.Medium.Tree
         IList<TreeNode> list = new List<TreeNode>();
         public IList<TreeNode> Solution(TreeNode root)
         {
-            PostOrder(root);
+            InOrder(root);
 
             return list;
 
 
         }
 
-        private string PostOrder(TreeNode node)
+        private string InOrder(TreeNode node)
         {
             if (node == null)
             {
                 return "N";
             }
-            string left = PostOrder(node.left);
-            string right = PostOrder(node.right);
+            string left = InOrder(node.left);
+            string right = InOrder(node.right);
             string s = node.val.ToString() + left + right;
             if (!dict.ContainsKey(s))
                 dict[s] = new List<TreeNode> { node };
