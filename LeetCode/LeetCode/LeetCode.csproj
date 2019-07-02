@@ -127,6 +127,7 @@
     <Compile Include="Medium\Tree\NumTrees.cs" />
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PreOrderPostOrderBuildTree.cs" />
+    <Compile Include="Medium\Tree\PrintTree.cs" />
     <Compile Include="Medium\Tree\SerializeAndDeserializeTree.cs" />
     <Compile Include="Medium\Tree\Str2tree.cs" />
     <Compile Include="Medium\Tree\SumNumbers.cs" />

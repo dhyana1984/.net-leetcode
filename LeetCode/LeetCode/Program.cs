@@ -19,17 +19,17 @@ namespace LeetCode
         {
             TreeNode t1 = new TreeNode(1);
             t1.left = new TreeNode(2);
-            t1.right = new TreeNode(3);
-            t1.left.left = new TreeNode(4);
+            //t1.right = new TreeNode(3);
+            //t1.left.left = new TreeNode(4);
 
-            //t1.left.right = new TreeNode(3);
-            t1.right.left = new TreeNode(2);
-            t1.right.right = new TreeNode(4);
-            //t1.left.left.left = new TreeNode(7);
-            //t1.left.left.right = new TreeNode(3);
-            //t1.left.right.right = new TreeNode(4);
-            //t1.left.left.left = new TreeNode(0);
-            t1.right.left.left = new TreeNode(4);
+            ////t1.left.right = new TreeNode(3);
+            //t1.right.left = new TreeNode(2);
+            //t1.right.right = new TreeNode(4);
+            ////t1.left.left.left = new TreeNode(7);
+            ////t1.left.left.right = new TreeNode(3);
+            ////t1.left.right.right = new TreeNode(4);
+            ////t1.left.left.left = new TreeNode(0);
+            //t1.right.left.left = new TreeNode(4);
             ////t1.left.left.right = new TreeNode(1);
             ////t1.left.left.left.left = new TreeNode(4);
             ////t1.left.left.left.left.left = new TreeNode(8);
@@ -61,8 +61,8 @@ namespace LeetCode
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
             var aaa = new int[] { 3, 2, 1, 6, 0, 5 };
-            ConstructMaximumBinaryTree solution = new ConstructMaximumBinaryTree();
-            var result = solution.Solution(aaa);
+            PrintTree solution = new PrintTree();
+            var result = solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };
