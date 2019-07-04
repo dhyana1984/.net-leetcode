@@ -103,6 +103,7 @@
     <Compile Include="Medium\Tree\BinTreeLevelOrder.cs" />
     <Compile Include="Medium\Tree\BoundaryOfBinaryTree.cs" />
     <Compile Include="Medium\Tree\BTRob.cs" />
+    <Compile Include="Medium\Tree\CheckEqualTree.cs" />
     <Compile Include="Medium\Tree\ConstructMaximumBinaryTree.cs" />
     <Compile Include="Medium\Tree\CountNodes.cs" />
     <Compile Include="Medium\Tree\CountUnivalSubtrees.cs" />
