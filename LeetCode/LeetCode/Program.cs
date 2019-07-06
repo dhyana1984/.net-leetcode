@@ -60,9 +60,9 @@ namespace LeetCode
             //int[] a1 = new int[]{ 9, 3, 15, 20, 7 };
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
-            var aaa = new int[] { 3, 2, 1, 6, 0, 5 };
-            CheckEqualTree solution = new CheckEqualTree();
-            var result = solution.Solution(t1);
+            var aaa = new int[] { 113, 215, 221 };
+            TreePathSumIV solution = new TreePathSumIV();
+            var result = solution.Solution(aaa);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };

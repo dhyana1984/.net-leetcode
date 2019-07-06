@@ -126,6 +126,7 @@
     <Compile Include="Medium\Tree\LongestConsecutiveII.cs" />
     <Compile Include="Medium\Tree\LowestCommonAncestorForBT.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />
+    <Compile Include="Medium\Tree\TreePathSumIV.cs" />
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PreOrderPostOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PrintTree.cs" />
