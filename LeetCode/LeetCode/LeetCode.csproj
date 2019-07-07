@@ -112,6 +112,7 @@
     <Compile Include="Medium\Tree\FindDuplicateSubtrees.cs" />
     <Compile Include="Medium\Tree\FindFrequentTreeSum.cs" />
     <Compile Include="Medium\Tree\FindLeaves.cs" />
+    <Compile Include="Medium\Tree\FindRedundantConnection.cs" />
     <Compile Include="Medium\Tree\GenerateBST.cs" />
     <Compile Include="Medium\Tree\InOrderPostOrderBuildTree.cs" />
     <Compile Include="Medium\String\LengthOfLongestSubstring.cs" />

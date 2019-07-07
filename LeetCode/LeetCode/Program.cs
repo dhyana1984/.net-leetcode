@@ -61,8 +61,19 @@ namespace LeetCode
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
             var aaa = new int[] { 113, 215, 221 };
-            TreePathSumIV solution = new TreePathSumIV();
-            var result = solution.Solution(aaa);
+            var bbb = new int[][] 
+            { new int[] { 9, 10 },
+            new int[] { 5, 8 },
+            new int[]{2, 6 },
+            new int[]{1, 5 },
+            new int[]{3, 8 },
+            new int[]{4, 9 },
+            new int[]{8, 10 },
+            new int[]{4, 10 },
+            new int[]{6, 8 },
+            new int[]{7, 9 } };
+            FindRedundantConnection solution = new FindRedundantConnection();
+            var result = solution.Solution(bbb);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };
