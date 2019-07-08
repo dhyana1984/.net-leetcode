@@ -73,8 +73,8 @@ namespace LeetCode
             new int[]{4, 10 },
             new int[]{6, 8 },
             new int[]{7, 9 } };
-            InsertIntoBST solution = new InsertIntoBST();
-            var result = solution.Solution(t1,88);
+            FindClosestLeaf solution = new FindClosestLeaf();
+            var result = solution.Solution(t1, 61);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };
