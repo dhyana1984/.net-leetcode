@@ -17,16 +17,16 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(61);
-            t1.left = new TreeNode(46);
-            t1.right = new TreeNode(66);
+            TreeNode t1 = new TreeNode(1);
+            //t1.left = new TreeNode(46);
+            t1.right = new TreeNode(0);
             //t1.right.right = new TreeNode(88);
-            t1.left.left = new TreeNode(43);
+            //t1.left.left = new TreeNode(43);
 
             //t1.left.right = new TreeNode(3);
-            //t1.right.left = new TreeNode(2);
-            //t1.right.right = new TreeNode(4);
-            t1.left.left.left = new TreeNode(39);
+            t1.right.left = new TreeNode(0);
+            t1.right.right = new TreeNode(1);
+            //t1.left.left.left = new TreeNode(39);
             ////t1.left.left.right = new TreeNode(3);
             ////t1.left.right.right = new TreeNode(4);
             ////t1.left.left.left = new TreeNode(0);
@@ -73,8 +73,8 @@ namespace LeetCode
             new int[]{4, 10 },
             new int[]{6, 8 },
             new int[]{7, 9 } };
-            FindClosestLeaf solution = new FindClosestLeaf();
-            var result = solution.Solution(t1, 61);
+            PruneTree solution = new PruneTree();
+            var result = solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
             //List<int> list1 = new List<int> { 500,600,200,300,550 };
