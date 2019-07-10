@@ -132,6 +132,7 @@
     <Compile Include="Medium\Tree\NumTrees.cs" />
     <Compile Include="Medium\Tree\PruneTree.cs" />
     <Compile Include="Medium\Tree\SplitBST.cs" />
+    <Compile Include="Medium\Tree\SubtreeWithAllDeepest.cs" />
     <Compile Include="Medium\Tree\TreePathSumIV.cs" />
     <Compile Include="Medium\Tree\PreOrderInOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PreOrderPostOrderBuildTree.cs" />
