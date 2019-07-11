@@ -130,6 +130,7 @@
     <Compile Include="Medium\Tree\LongestConsecutiveII.cs" />
     <Compile Include="Medium\Tree\LowestCommonAncestorForBT.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />
+    <Compile Include="Medium\Tree\PreOrderAndPostOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PruneTree.cs" />
     <Compile Include="Medium\Tree\SplitBST.cs" />
     <Compile Include="Medium\Tree\SubtreeWithAllDeepest.cs" />
