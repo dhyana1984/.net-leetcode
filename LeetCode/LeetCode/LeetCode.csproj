@@ -123,6 +123,7 @@
     <Compile Include="Medium\Tree\InorderSuccessor1.cs" />
     <Compile Include="Medium\Tree\InorderSuccessor2.cs" />
     <Compile Include="Medium\Tree\InsertIntoBST.cs" />
+    <Compile Include="Medium\Tree\InsertIntoMaxTreeII.cs" />
     <Compile Include="Medium\Tree\KillProcess.cs" />
     <Compile Include="Medium\Tree\KthSmallest.cs" />
     <Compile Include="Medium\Tree\LargestBSTSubtree.cs" />
