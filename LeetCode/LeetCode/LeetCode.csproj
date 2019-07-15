@@ -136,6 +136,7 @@
     <Compile Include="Medium\Tree\PathInZigZagTree.cs" />
     <Compile Include="Medium\Tree\PreOrderAndPostOrderBuildTree.cs" />
     <Compile Include="Medium\Tree\PruneTree.cs" />
+    <Compile Include="Medium\Tree\SmallestFromLeaf.cs" />
     <Compile Include="Medium\Tree\SplitBST.cs" />
     <Compile Include="Medium\Tree\SubtreeWithAllDeepest.cs" />
     <Compile Include="Medium\Tree\TreePathSumIV.cs" />

@@ -17,24 +17,25 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(8);
-            t1.left = new TreeNode(3);
-            t1.right = new TreeNode(10);
-            t1.left.left = new TreeNode(1);
-            t1.left.right = new TreeNode(6);
-            t1.right.right = new TreeNode(14);
+            TreeNode t1 = new TreeNode(0);
+            t1.left = new TreeNode(1);
+            t1.right = new TreeNode(2);
+            t1.left.left = new TreeNode(3);
+            t1.left.right = new TreeNode(4);
+            t1.right.left = new TreeNode(3);
+            t1.right.right = new TreeNode(4);
             //t1.left.left = new TreeNode(43);
 
             //t1.left.right = new TreeNode(3);
-            //t1.right.left = new TreeNode(3);
+          
             //t1.right.right = new TreeNode(1);
             //t1.left.left.left = new TreeNode(39);
             ////t1.left.left.right = new TreeNode(3);
-            t1.left.right.left = new TreeNode(4);
-            t1.left.right.right = new TreeNode(7);
+            //t1.left.right.left = new TreeNode(4);
+            //t1.left.right.right = new TreeNode(7);
             ////t1.left.left.left = new TreeNode(0);
             //t1.right.left.left = new TreeNode(4);
-            t1.right.right.left = new TreeNode(13);
+            //t1.right.right.left = new TreeNode(13);
             ////t1.left.left.right = new TreeNode(1);
             ////t1.left.left.left.left = new TreeNode(4);
             ////t1.left.left.left.left.left = new TreeNode(8);
@@ -44,7 +45,7 @@ namespace LeetCode
             ////t1.left.left.left.left.left.left.left.left.left = new TreeNode(7);
             ////t1.left.left.right = new TreeNode(2);
             //t1.left.right.right = new TreeNode(4);
-            t1.right.right.left = new TreeNode(3);
+            //t1.right.right.left = new TreeNode(3);
             //t1.right.right.right = new TreeNode(1);
 
             //t1.right.right.right = new TreeNode(9);
@@ -76,7 +77,7 @@ namespace LeetCode
             new int[]{4, 10 },
             new int[]{6, 8 },
             new int[]{7, 9 } };
-            MaxAncestorDiff solution = new MaxAncestorDiff();
+            SmallestFromLeaf solution = new SmallestFromLeaf();
             var result = solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
