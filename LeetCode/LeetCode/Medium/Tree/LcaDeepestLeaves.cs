@@ -39,50 +39,56 @@ namespace LeetCode.Medium.Tree
 
      */
 
-    public class LcaDeepestLeaves
+
+   public class LcaDeepestLeaves
     {
- 
+
         public TreeNode Solution(TreeNode root)
         {
-            var queue = new Queue<TreeNode>();
-            queue.Enqueue(root);
-            var node = new TreeNode(0);
-            var dict = new Dictionary<TreeNode, TreeNode>();
-            var res = new TreeNode(0);
-            while (queue.Any())
-            {
-                node = queue.Dequeue(); 
-                  
-                if (node.left != null)
-                {
-                    dict[node.left] = node;
-                    queue.Enqueue(node.left);
-                }
-                if (node.right != null)
-                {
-                    dict[node.right] = node;
-                    queue.Enqueue(node.right);
-                }
+            TreeNode res = root;
+            int d = Depth(root);
 
-                if(!queue.Any())
-                {
-                    if (dict[node].left != null && dict[node].right != null)
-                        return dict[node];
-                    if (dict[node].left != null)
-                        return dict[node].left;
-                    if(dict[node].right != null)
-                        return dict[node].right;
-                }
+            return Helper(root, d);
 
 
-            }
 
-
-            
-            return null; 
-            //return depth;
         }
 
+        private int Depth(TreeNode root)
+        {
+            if (root == null)
+            {
+                return 0;
+            }
+            int l = Depth(root.left);
+            int r = Depth(root.right);
+            return Math.Max(l, r) + 1;
+        }
 
+        private TreeNode Helper(TreeNode root, int d)
+        {
+            TreeNode res = null;
+            if (root == null)
+            {
+                return null;
+            }
+
+            int l = Depth(root.left);
+            int r = Depth(root.right);
+            if (l == r && l == d - 1)
+            {
+                res = root;
+            }
+            else
+            {
+                res = Helper(root.left, d - 1);
+                if (res == null)
+                {
+                    res = Helper(root.right, d - 1);
+                }
+            }
+
+            return res;
+        }
     }
 }
