@@ -17,13 +17,13 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(0);
-            t1.left = new TreeNode(1);
-            t1.right = new TreeNode(2);
-            t1.left.left = new TreeNode(3);
-            t1.left.right = new TreeNode(4);
-            t1.right.left = new TreeNode(3);
-            t1.right.right = new TreeNode(4);
+            TreeNode t1 = new TreeNode(1);
+            t1.left = new TreeNode(2);
+            t1.right = new TreeNode(3);
+            t1.left.left = new TreeNode(4);
+            //t1.left.right = new TreeNode(4);
+            //t1.right.left = new TreeNode(3);
+            //t1.right.right = new TreeNode(4);
             //t1.left.left = new TreeNode(43);
 
             //t1.left.right = new TreeNode(3);
@@ -77,7 +77,7 @@ namespace LeetCode
             new int[]{4, 10 },
             new int[]{6, 8 },
             new int[]{7, 9 } };
-            SmallestFromLeaf solution = new SmallestFromLeaf();
+            LcaDeepestLeaves solution = new LcaDeepestLeaves();
             var result = solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
