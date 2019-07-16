@@ -133,6 +133,7 @@
     <Compile Include="Medium\Tree\LongestConsecutiveII.cs" />
     <Compile Include="Medium\Tree\LowestCommonAncestorForBT.cs" />
     <Compile Include="Medium\Tree\MaxAncestorDiff.cs" />
+    <Compile Include="Medium\Tree\MaximumAverageSubtree.cs" />
     <Compile Include="Medium\Tree\NumTrees.cs" />
     <Compile Include="Medium\Tree\PathInZigZagTree.cs" />
     <Compile Include="Medium\Tree\PreOrderAndPostOrderBuildTree.cs" />
