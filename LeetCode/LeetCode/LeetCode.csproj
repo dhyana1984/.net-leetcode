@@ -156,6 +156,7 @@
     <Compile Include="Medium\Tree\UpsideDownBinaryTree.cs" />
     <Compile Include="Medium\Tree\ValidateBinarySearchTree.cs" />
     <Compile Include="Medium\Tree\VerifyPreorderBST.cs" />
+    <Compile Include="Medium\Tree\VerticalTraversal.cs" />
     <Compile Include="Medium\Tree\WidthOfBinaryTree.cs" />
     <Compile Include="Medium\Tree\ZigzagLevelOrder.cs" />
     <Compile Include="Program.cs" />
