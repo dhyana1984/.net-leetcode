@@ -17,13 +17,13 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            TreeNode t1 = new TreeNode(3);
-            t1.left = new TreeNode(9);
-            t1.right = new TreeNode(20);
+            TreeNode t1 = new TreeNode(1);
+            t1.left = new TreeNode(0);
+            t1.right = new TreeNode(0);
             //t1.left.left = new TreeNode(4);
-            //t1.left.right = new TreeNode(4);
-            t1.right.left = new TreeNode(15);
-            t1.right.right = new TreeNode(7);
+            t1.left.right = new TreeNode(3);
+            //t1.right.left = new TreeNode(15);
+            //t1.right.right = new TreeNode(7);
             //t1.left.left = new TreeNode(43);
 
             //t1.left.right = new TreeNode(3);
@@ -77,7 +77,7 @@ namespace LeetCode
             new int[]{4, 10 },
             new int[]{6, 8 },
             new int[]{7, 9 } };
-            VerticalTraversal solution = new VerticalTraversal();
+            DistributeTreeCoins solution = new DistributeTreeCoins();
             var result = solution.Solution(t1);
 
             //GetMatchAmountList solution = new GetMatchAmountList();
