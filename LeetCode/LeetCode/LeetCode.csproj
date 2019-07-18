@@ -62,6 +62,7 @@
     <Compile Include="Easy\Tree\IncreasingBST.cs" />
     <Compile Include="Easy\Tree\InvertBinTree.cs" />
     <Compile Include="Easy\Tree\IsBalanced.cs" />
+    <Compile Include="Medium\Tree\IsCompleteTree.cs" />
     <Compile Include="Easy\Tree\IsCousinsNode.cs" />
     <Compile Include="Easy\Tree\IsSameTree.cs" />
     <Compile Include="Easy\Tree\IsSymmetric.cs" />
