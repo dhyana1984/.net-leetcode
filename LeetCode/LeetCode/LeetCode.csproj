@@ -58,6 +58,7 @@
     <Compile Include="Easy\Tree\DeleteListDuplicates.cs" />
     <Compile Include="Easy\Tree\FindSecondMinimumValue.cs" />
     <Compile Include="Easy\Tree\FindSumInBST.cs" />
+    <Compile Include="Easy\Tree\FlipEquivBT.cs" />
     <Compile Include="Easy\Tree\GetMinimumDifference.cs" />
     <Compile Include="Easy\Tree\IncreasingBST.cs" />
     <Compile Include="Easy\Tree\InvertBinTree.cs" />
