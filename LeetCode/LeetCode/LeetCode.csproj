@@ -46,7 +46,8 @@
     <Compile Include="Biby\MatchAmount.cs" />
     <Compile Include="Difficult\PostorderTraversal.cs" />
     <Compile Include="Easy\DP\StockMaxProfit.cs" />
-    <Compile Include="Easy\Stack\RelativeSortArray.cs" />
+    <Compile Include="Easy\Sort\RelativeSortArray.cs" />
+    <Compile Include="Easy\Stack\RemoveDuplicates.cs" />
     <Compile Include="Easy\Tree\AddBinary.cs" />
     <Compile Include="Easy\Tree\AllBinaryTreePaths.cs" />
     <Compile Include="Easy\Tree\AverageOfLevels.cs" />
