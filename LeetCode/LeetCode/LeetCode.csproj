@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Biby\MatchAmount.cs" />
+    <Compile Include="Stack\Medium\LongestWPI.cs" />
     <Compile Include="Tree\Difficult\PostorderTraversal.cs" />
     <Compile Include="DP\Easy\StockMaxProfit.cs" />
     <Compile Include="Sort\Easy\RelativeSortArray.cs" />
@@ -176,7 +177,6 @@
     <Folder Include="Sort\Difficult\" />
     <Folder Include="Sort\Medium\" />
     <Folder Include="Stack\Difficult\" />
-    <Folder Include="Stack\Medium\" />
     <Folder Include="String\Difficult\" />
     <Folder Include="String\Easy\" />
   </ItemGroup>
