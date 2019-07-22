@@ -4,6 +4,7 @@ using LeetCode.Easy.Stack;
 using LeetCode.Helper;
 using LeetCode.Medium;
 using LeetCode.Medium.Tree;
+using LeetCode.Stack.Easy;
 using LeetCode.Stack.Medium;
 using System;
 using System.Collections.Generic;
@@ -68,7 +69,7 @@ namespace LeetCode
             //int[] a2 = new int[] { 9, 15, 7, 20, 3 };
             //var aaaa = solution.BuildTree(a1,a2);
             var aaa = new int[] { 113, 215, 221 };
-            var bbb = new int[][] 
+            var bbb = new int[][]
             { new int[] { 9, 10 },
             new int[] { 5, 8 },
             new int[]{2, 6 },
@@ -92,8 +93,9 @@ namespace LeetCode
             // PathInZigZagTree solution = new PathInZigZagTree();
             //var Result = solution.Solution(26);
             int[] a = new int[] { 2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19 };
-            int[] b = new int[] { 6,6,9};
-            LongestWPI solution = new LongestWPI();
-            var result = solution.Solution(b);
+            int[] b = new int[] { 6, 6, 9 };
+            RemoveOuterParentheses solution = new RemoveOuterParentheses();
+            var result = solution.Solution("(()())(())");
+        }
     }
 }
