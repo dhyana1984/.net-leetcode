@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Biby\MatchAmount.cs" />
     <Compile Include="Stack\Easy\BackspaceCompare.cs" />
+    <Compile Include="Stack\Easy\CalPoints.cs" />
     <Compile Include="Stack\Easy\RemoveOuterParentheses.cs" />
     <Compile Include="Stack\Medium\LongestWPI.cs" />
     <Compile Include="Tree\Difficult\PostorderTraversal.cs" />

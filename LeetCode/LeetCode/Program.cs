@@ -93,9 +93,9 @@ namespace LeetCode
             // PathInZigZagTree solution = new PathInZigZagTree();
             //var Result = solution.Solution(26);
             int[] a = new int[] { 2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19 };
-            int[] b = new int[] { 6, 6, 9 };
-            RemoveOuterParentheses solution = new RemoveOuterParentheses();
-            var result = solution.Solution("(()())(())");
+            string[] b = new string[] { "5", "2", "C", "D", "+" };
+            CalPoints solution = new CalPoints();
+            var result = solution.Solution(b);
         }
     }
 }
