@@ -32,9 +32,40 @@ namespace LeetCode.Stack.Medium
     {
         public bool Solution(string S)
         {
-            while (S.Contains("abc"))
-                S = S.Replace("abc", "");
-            return S == "";
+            //常规解题
+            //while (S.Contains("abc"))
+            //    S = S.Replace("abc", "");
+            //return S == "";
+
+
+            //用栈解题
+
+            var stack = new Stack<char>();
+            if (S[0] != 'a' || S.Length < 3 || S.Length % 3 != 0)
+                return false;
+            for (int i = 0; i < S.Length; i++)
+            {
+
+                if (S[i] == 'a')
+                    stack.Push(S[i]);
+                else if (S[i] == 'b')
+                {
+                    if (stack.Any() && stack.Peek() == 'a')
+                        stack.Push(S[i]);
+                }
+
+                else
+                {
+                    if (stack.Any() && stack.Peek() == 'b')
+                    {
+                        stack.Pop();
+                        stack.Pop();
+                    }
+                }
+
+            }
+
+            return !stack.Any();
         }
     }
 }
