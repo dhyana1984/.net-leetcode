@@ -94,8 +94,8 @@ namespace LeetCode
             //var Result = solution.Solution(26);
             int[] a = new int[] { 1, 3, 5, 2, 4 };
             int[] b = new int[] { 6, 5, 4, 3, 2, 1, 7 };
-            NextGreaterElement solution = new NextGreaterElement();
-            var result = solution.Solution(a,b);
+            IsValidReplaceStr solution = new IsValidReplaceStr();
+            var result = solution.Solution("aaabcbcbc");
         }
     }
 }
