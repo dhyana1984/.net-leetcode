@@ -94,8 +94,10 @@ namespace LeetCode
             //var Result = solution.Solution(26);
             int[] a = new int[] { 1, 3, 5, 2, 4 };
             int[] b = new int[] { 6, 5, 4, 3, 2, 1, 7 };
-            IsValidReplaceStr solution = new IsValidReplaceStr();
-            var result = solution.Solution("aaabcbcbc");
+            DecodeAtIndex solution = new DecodeAtIndex();
+            var result = solution.Solution("leet2code3", 10);
+
+
         }
     }
 }
