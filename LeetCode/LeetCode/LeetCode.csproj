@@ -51,6 +51,7 @@
     <Compile Include="Stack\Easy\MyStack.cs" />
     <Compile Include="Stack\Easy\NextGreaterElement.cs" />
     <Compile Include="Stack\Easy\RemoveOuterParentheses.cs" />
+    <Compile Include="Stack\Medium\DailyTemperatures.cs" />
     <Compile Include="Stack\Medium\DecodeAtIndex.cs" />
     <Compile Include="Stack\Medium\IsValidReplaceStr.cs" />
     <Compile Include="Stack\Medium\LongestWPI.cs" />
