@@ -54,6 +54,7 @@
     <Compile Include="Stack\Medium\AsteroidCollision.cs" />
     <Compile Include="Stack\Medium\DailyTemperatures.cs" />
     <Compile Include="Stack\Medium\DecodeAtIndex.cs" />
+    <Compile Include="Stack\Medium\ExclusiveTime.cs" />
     <Compile Include="Stack\Medium\IsValidReplaceStr.cs" />
     <Compile Include="Stack\Medium\LongestWPI.cs" />
     <Compile Include="Stack\Medium\MinAddToMakeValid.cs" />
