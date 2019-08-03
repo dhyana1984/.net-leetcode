@@ -92,9 +92,9 @@ namespace LeetCode
 
             // PathInZigZagTree solution = new PathInZigZagTree();
             //var Result = solution.Solution(26);
-            int[] a = new int[] { 5, 4, 3, 2, 1 };
+            int[] a = new int[] { 1, 2, 3, 4 };
             int[] b = new int[] { 6, 5, 4, 3, 2, 1, 7 };
-            NextGreaterElements solution = new NextGreaterElements();
+            Find132pattern solution = new Find132pattern();
             var result = solution.Solution(a);
 
 
