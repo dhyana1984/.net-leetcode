@@ -58,6 +58,7 @@
     <Compile Include="Stack\Medium\IsValidReplaceStr.cs" />
     <Compile Include="Stack\Medium\LongestWPI.cs" />
     <Compile Include="Stack\Medium\MinAddToMakeValid.cs" />
+    <Compile Include="Stack\Medium\NextGreaterElements.cs" />
     <Compile Include="Stack\Medium\NextLargerNodes.cs" />
     <Compile Include="Stack\Medium\ScoreOfParentheses.cs" />
     <Compile Include="Stack\Medium\StockSpanner.cs" />

@@ -92,10 +92,10 @@ namespace LeetCode
 
             // PathInZigZagTree solution = new PathInZigZagTree();
             //var Result = solution.Solution(26);
-            int[] a = new int[] { -2, -2, 1, -1 };
+            int[] a = new int[] { 5, 4, 3, 2, 1 };
             int[] b = new int[] { 6, 5, 4, 3, 2, 1, 7 };
-            ExclusiveTime solution = new ExclusiveTime();
-            var result = solution.Solution(2,new string[] { "0:start:0", "0:start:2", "0:end:5", "1:start:7", "1:end:7", "0:end:8" });
+            NextGreaterElements solution = new NextGreaterElements();
+            var result = solution.Solution(a);
 
 
         }
