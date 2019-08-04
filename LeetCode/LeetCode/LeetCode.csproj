@@ -61,6 +61,7 @@
     <Compile Include="Stack\Medium\MinAddToMakeValid.cs" />
     <Compile Include="Stack\Medium\NextGreaterElements.cs" />
     <Compile Include="Stack\Medium\NextLargerNodes.cs" />
+    <Compile Include="Stack\Medium\RemoveKdigits.cs" />
     <Compile Include="Stack\Medium\ScoreOfParentheses.cs" />
     <Compile Include="Stack\Medium\StockSpanner.cs" />
     <Compile Include="Stack\Medium\ValidateStackSequences.cs" />
