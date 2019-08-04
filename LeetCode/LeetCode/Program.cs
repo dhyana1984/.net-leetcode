@@ -94,8 +94,9 @@ namespace LeetCode
             //var Result = solution.Solution(26);
             int[] a = new int[] { 1, 2, 3, 4 };
             int[] b = new int[] { 6, 5, 4, 3, 2, 1, 7 };
-            Find132pattern solution = new Find132pattern();
-            var result = solution.Solution(a);
+            DecodeString solution = new DecodeString();
+            var result = solution.Solution("3[a]2[bc]");
+
 
 
         }
