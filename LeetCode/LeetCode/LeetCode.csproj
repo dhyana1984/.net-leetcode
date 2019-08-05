@@ -59,6 +59,7 @@
     <Compile Include="Stack\Medium\ExclusiveTime.cs" />
     <Compile Include="Stack\Medium\Find132pattern.cs" />
     <Compile Include="Stack\Medium\IsValidReplaceStr.cs" />
+    <Compile Include="Stack\Medium\IsValidSerialization.cs" />
     <Compile Include="Stack\Medium\LongestWPI.cs" />
     <Compile Include="Stack\Medium\MinAddToMakeValid.cs" />
     <Compile Include="Stack\Medium\NextGreaterElements.cs" />
