@@ -1,6 +1,7 @@
 ﻿using LeetCode.Biby;
 using LeetCode.Easy;
 using LeetCode.Easy.Stack;
+using LeetCode.Heap.Easy;
 using LeetCode.Helper;
 using LeetCode.Medium;
 using LeetCode.Medium.Tree;
@@ -93,11 +94,17 @@ namespace LeetCode
             // PathInZigZagTree solution = new PathInZigZagTree();
             //var Result = solution.Solution(26);
             string[] a = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
-            int[] b = new int[] { 6, 5, 4, 3, 2, 1, 7 };
-            EvalRPN solution = new EvalRPN();
-            var result = solution.Solution(a);
+            int[] b = new int[] { 4, 5, 8, 2 };
+            //EvalRPN solution = new EvalRPN();
+            //var result = solution.Solution(a);
 
-
+            KthLargest solution = new KthLargest(3, b);
+            
+            var res=solution.Add(3);
+            res=solution.Add(5);
+            res=solution.Add(10);
+            res=solution.Add(9);
+            res = solution.Add(4);
 
         }
     }
