@@ -41,7 +41,7 @@ namespace LeetCode.Stack.Medium
 
     public class IsValidSerialization
     {
-        public bool IsValidSerialization(string preorder)
+        public bool Solution(string preorder)
         {
             var array = preorder.Split(',');
             var countNone = 0;
