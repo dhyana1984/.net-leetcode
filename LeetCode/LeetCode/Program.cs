@@ -1,6 +1,7 @@
 ﻿using LeetCode.Biby;
 using LeetCode.Easy;
 using LeetCode.Easy.Stack;
+using LeetCode.Greedy.Easy;
 using LeetCode.Heap.Easy;
 using LeetCode.Helper;
 using LeetCode.Medium;
@@ -95,16 +96,15 @@ namespace LeetCode
             //var Result = solution.Solution(26);
             string[] a = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
             int[] b = new int[] { 4, 5, 8, 2 };
+            int[][] c = new int[][] { new int[] { 259, 770 }, new int[] { 448, 54 }, new int[] { 926, 667 }, new int[] { 184, 139 }, new int[] { 840, 118 }, new int[] { 577, 469 } };
             //EvalRPN solution = new EvalRPN();
             //var result = solution.Solution(a);
 
-            KthLargest solution = new KthLargest(3, b);
-            
-            var res=solution.Add(3);
-            res=solution.Add(5);
-            res=solution.Add(10);
-            res=solution.Add(9);
-            res = solution.Add(4);
+            TwoCitySchedCost solution = new TwoCitySchedCost();
+            var res = solution.Solution(c);
+
+
+
 
         }
     }
