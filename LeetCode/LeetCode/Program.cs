@@ -95,15 +95,28 @@ namespace LeetCode
             // PathInZigZagTree solution = new PathInZigZagTree();
             //var Result = solution.Solution(26);
             string[] a = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
-            int[] b = new int[] { 4, 5, 8, 2 };
-            int[][] c = new int[][] { new int[] { 259, 770 }, new int[] { 448, 54 }, new int[] { 926, 667 }, new int[] { 184, 139 }, new int[] { 840, 118 }, new int[] { 577, 469 } };
+            int[] b = new int[] { 7, -2, -2, 7, 5 };
+            int[][] c = new int[][] 
+            {
+                new int[] { -3, 2 },
+                new int[] { -2,1 },
+                new int[] {0,1},
+                new int[] { -2,4 },
+                new int[] { 1,0 },
+                new int[] { -2, -3 },
+                new int[] { 0,-3 },
+                new int[] { 4,4 },
+                new int[] { -3,3 },
+                new int[] { 2,2},
+            };
             //EvalRPN solution = new EvalRPN();
             //var result = solution.Solution(a);
 
-            TwoCitySchedCost solution = new TwoCitySchedCost();
-            var res = solution.Solution(c);
 
 
+            RobotSim solution = new RobotSim();
+
+            var res = solution.Solution(b, c);
 
 
         }
