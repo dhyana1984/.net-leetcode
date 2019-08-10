@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Biby\MatchAmount.cs" />
     <Compile Include="Greedy\Easy\LargestSumAfterKNegations.cs" />
+    <Compile Include="Greedy\Easy\MinDeletionSize.cs" />
     <Compile Include="Greedy\Easy\TwoCitySchedCost.cs" />
     <Compile Include="Heap\Easy\KthLargest.cs" />
     <Compile Include="Helper\ListNode.cs" />
