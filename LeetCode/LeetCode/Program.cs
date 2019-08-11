@@ -114,9 +114,9 @@ namespace LeetCode
 
 
 
-            RobotSim solution = new RobotSim();
+            LemonadeChange solution = new LemonadeChange();
 
-            var res = solution.Solution(b, c);
+            var res = solution.Solution(new int[] { 5, 5, 10, 20, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 5, 5, 20, 5, 20, 5 });
 
 
         }
