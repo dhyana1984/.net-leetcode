@@ -114,9 +114,9 @@ namespace LeetCode
 
 
 
-            LemonadeChange solution = new LemonadeChange();
+            FindContentChildren solution = new FindContentChildren();
 
-            var res = solution.Solution(new int[] { 5, 5, 10, 20, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 5, 5, 20, 5, 20, 5 });
+            var res = solution.Solution(new int[] { 10, 9, 8, 7, 10, 9, 8, 7 }, new int[] { 10, 9, 8, 7 });
 
 
         }
