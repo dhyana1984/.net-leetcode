@@ -2,6 +2,7 @@
 using LeetCode.Easy;
 using LeetCode.Easy.Stack;
 using LeetCode.Greedy.Easy;
+using LeetCode.Greedy.Medium;
 using LeetCode.Heap.Easy;
 using LeetCode.Helper;
 using LeetCode.Medium;
@@ -114,9 +115,9 @@ namespace LeetCode
 
 
 
-            FindContentChildren solution = new FindContentChildren();
+            CarPooling solution = new CarPooling();
 
-            var res = solution.Solution(new int[] { 10, 9, 8, 7, 10, 9, 8, 7 }, new int[] { 10, 9, 8, 7 });
+            var res = solution.Solution(new int[][] { new int[] { 2, 1, 5 }, new int[] { 3, 3, 7 } },4);
 
 
         }
