@@ -116,7 +116,7 @@ namespace LeetCode
 
 
             RearrangeBarcodes solution = new RearrangeBarcodes();
-            solution.Solution(new int[] { 1, 1, 1, 2, 2, 2 });
+            solution.Solution(new int[] { 1, 1, 1, 1, 2, 2, 3, 3 });
 
         }
     }
