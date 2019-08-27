@@ -52,6 +52,7 @@
     <Compile Include="Greedy\Easy\MinDeletionSize.cs" />
     <Compile Include="Greedy\Easy\RobotSim.cs" />
     <Compile Include="Greedy\Easy\TwoCitySchedCost.cs" />
+    <Compile Include="Greedy\Medium\CanJump.cs" />
     <Compile Include="Greedy\Medium\CarPooling.cs" />
     <Compile Include="Greedy\Medium\LargestValsFromLabels.cs" />
     <Compile Include="Greedy\Medium\RearrangeBarcodes.cs" />

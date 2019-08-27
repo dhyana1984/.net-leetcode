@@ -115,8 +115,8 @@ namespace LeetCode
 
 
 
-            RearrangeBarcodes solution = new RearrangeBarcodes();
-            solution.Solution(new int[] { 1, 1, 1, 1, 2, 2, 3, 3 });
+            CanJump solution = new CanJump();
+            var t =solution.Solution(new int[] { 1, 1, 2, 2, 0, 1, 1 });
 
         }
     }
