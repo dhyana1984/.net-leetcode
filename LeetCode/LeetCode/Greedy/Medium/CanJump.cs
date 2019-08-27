@@ -60,6 +60,20 @@ namespace LeetCode.Greedy.Medium
 
 
             return false;
+
+            /*
+             *  
+             *  if(nums.Length==1)
+                    return true;
+                var last = nums.Last();
+                for(var i = nums.Length-1;i>=0;i--)
+                {
+                    if(nums[i]+i>= last)
+                        last=i;
+                }
+        
+                return last==0;
+             */
         }
     }
 }
