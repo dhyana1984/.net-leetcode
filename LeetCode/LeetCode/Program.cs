@@ -115,8 +115,8 @@ namespace LeetCode
 
 
 
-            CanJump solution = new CanJump();
-            var t =solution.Solution(new int[] { 1, 1, 2, 2, 0, 1, 1 });
+            CanCompleteCircuit solution = new CanCompleteCircuit();
+            var t =solution.Solution(new int[] { 2, 3, 4 },new int[] { 3, 4, 3 });
 
         }
     }
