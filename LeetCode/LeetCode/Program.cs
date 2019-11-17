@@ -21,6 +21,15 @@ namespace LeetCode
 {
     class Program
     {
+        static int a = 1;
+        private static void f1(int n)
+        {
+           
+            int b = 1;
+            Console.WriteLine(a += n);
+            Console.WriteLine(b += n);
+          
+        }
         static void Main(string[] args)
         {
             TreeNode t1 = new TreeNode(1);
@@ -116,8 +125,21 @@ namespace LeetCode
 
 
             CanCompleteCircuit solution = new CanCompleteCircuit();
-            var t =solution.Solution(new int[] { 2, 3, 4 },new int[] { 3, 4, 3 });
 
+            var t = Test(2, 2);
+            for (int i = 0; i < 5; i++)
+            {
+                f1(i);
+            }
+            Console.ReadLine();
         }
+
+
+        private static int Test(int a,int b)
+        {
+            a = b + 1;
+            return a;
+        }
+      
     }
 }
