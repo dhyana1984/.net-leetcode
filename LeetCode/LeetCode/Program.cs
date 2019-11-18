@@ -126,15 +126,27 @@ namespace LeetCode
 
             CanCompleteCircuit solution = new CanCompleteCircuit();
 
-            var t = Test(2, 2);
-            for (int i = 0; i < 5; i++)
-            {
-                f1(i);
-            }
+            //var t = Test(2, 2);
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    f1(i);
+            //}
+
+            char[] m = new char[5];
+            var n = new char[] { 'a', 'b', 'c', 'd', 'e' };
+            copyString(m, n);
+
             Console.ReadLine();
         }
 
-
+        private static void copyString (char[] to, char[] from)
+        {
+            for (int i = 0;from[i]!='\0'; ++i)
+            {
+                to[i] = from[i];
+                to[i] = '\0';
+             }
+        }
         private static int Test(int a,int b)
         {
             a = b + 1;
