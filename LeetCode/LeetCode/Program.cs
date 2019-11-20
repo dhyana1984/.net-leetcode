@@ -124,8 +124,8 @@ namespace LeetCode
 
 
 
-            CanCompleteCircuit solution = new CanCompleteCircuit();
-
+            SingleNumber solution = new SingleNumber();
+            solution.Solution(new int[] { 1,0,1});
             //var t = Test(2, 2);
             //for (int i = 0; i < 5; i++)
             //{

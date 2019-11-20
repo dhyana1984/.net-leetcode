@@ -59,6 +59,7 @@
     <Compile Include="Greedy\Medium\RearrangeBarcodes.cs" />
     <Compile Include="Heap\Easy\KthLargest.cs" />
     <Compile Include="Helper\ListNode.cs" />
+    <Compile Include="OnceNumber.cs" />
     <Compile Include="Stack\Easy\BackspaceCompare.cs" />
     <Compile Include="Stack\Easy\CalPoints.cs" />
     <Compile Include="Stack\Easy\MyQueue.cs" />
