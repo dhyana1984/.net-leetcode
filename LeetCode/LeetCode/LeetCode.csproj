@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Biby\MatchAmount.cs" />
+    <Compile Include="DuplicateNumber\FindDuplicated.cs" />
+    <Compile Include="DuplicateNumber\MissingNumber.cs" />
     <Compile Include="Greedy\Easy\FindContentChildren.cs" />
     <Compile Include="Greedy\Easy\IsSubsequence.cs" />
     <Compile Include="Greedy\Easy\LargestSumAfterKNegations.cs" />
@@ -59,7 +61,7 @@
     <Compile Include="Greedy\Medium\RearrangeBarcodes.cs" />
     <Compile Include="Heap\Easy\KthLargest.cs" />
     <Compile Include="Helper\ListNode.cs" />
-    <Compile Include="OnceNumber.cs" />
+    <Compile Include="DuplicateNumber\SingleNumber.cs" />
     <Compile Include="Stack\Easy\BackspaceCompare.cs" />
     <Compile Include="Stack\Easy\CalPoints.cs" />
     <Compile Include="Stack\Easy\MyQueue.cs" />
