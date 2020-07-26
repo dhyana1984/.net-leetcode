@@ -8,6 +8,7 @@ using LeetCode.Medium;
 using LeetCode.Medium.Tree;
 using LeetCode.Stack.Easy;
 using LeetCode.Stack.Medium;
+using LeetCodeDotNetCore.DP.Easy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -122,17 +123,9 @@ namespace LeetCode
 
 
 
-            SingleNumber solution = new SingleNumber();
-            var res = solution.Solution(new int[] { 1,0,1});
-            //var t = Test(2, 2);
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    f1(i);
-            //}
+            MaximumSubarray solution = new MaximumSubarray();
+            var res = solution.Solution(new int[] { -3, -1, 3, 5, 1, -2, 1, 5, -4});
 
-            char[] m = new char[5];
-            var n = new char[] { 'a', 'b', 'c', 'd', 'e' };
-            //copyString(m, n);
             Console.WriteLine(res);
             Console.ReadLine();
         }
