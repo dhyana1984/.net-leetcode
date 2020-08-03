@@ -38,6 +38,7 @@ namespace LeetCodeDotNetCore.DP.Medium
                     {
                         //搜索当前矩阵位置的左边，上边，左上边那一个值的最大正方形边长的值最小，
                         //因为当前值的最大边长取决于左，上 ，左上的最大正方形边长的最小值
+                        //最后还要加上1，即本身
                         dp[i + 1][j + 1] = Math.Min(dp[i + 1][j], dp[i][j + 1]);
                         dp[i + 1][j + 1] = Math.Min(dp[i + 1][j + 1], dp[i][j]) + 1;
 
