@@ -8,6 +8,7 @@ using LeetCode.Medium;
 using LeetCode.Medium.Tree;
 using LeetCode.Stack.Easy;
 using LeetCode.Stack.Medium;
+using LeetCodeDotNetCore;
 using LeetCodeDotNetCore.DP.Easy;
 using System;
 using System.Collections.Generic;
@@ -123,8 +124,12 @@ namespace LeetCode
 
 
 
-            MaximumSubarray solution = new MaximumSubarray();
-            var res = solution.Solution(new int[] { -3, -1, 3, 5, 1, -2, 1, 5, -4});
+            //MaximumSubarray solution = new MaximumSubarray();
+            //var res = solution.Solution(new int[] { -3, -1, 3, 5, 1, -2, 1, 5, -4});
+
+            KeyboardRow solution = new KeyboardRow();
+            var input = new List<string> { "Hello", "Alaska", "Dad", "Peace" };
+            var res = solution.Solution(input.ToArray());
 
             Console.WriteLine(res);
             Console.ReadLine();
