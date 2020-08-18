@@ -8,5 +8,8 @@
   <ItemGroup>
     <Folder Include="DP\Medium\" />
     <Folder Include="Easy\" />
+    <Folder Include="Binary\" />
+    <Folder Include="Binary\Easy\" />
+    <Folder Include="Binary\Medium\" />
   </ItemGroup>
 </Project>
