@@ -11,5 +11,7 @@
     <Folder Include="Binary\" />
     <Folder Include="Binary\Easy\" />
     <Folder Include="Binary\Medium\" />
+    <Folder Include="Backtracking\" />
+    <Folder Include="Backtracking\Medium\" />
   </ItemGroup>
 </Project>
