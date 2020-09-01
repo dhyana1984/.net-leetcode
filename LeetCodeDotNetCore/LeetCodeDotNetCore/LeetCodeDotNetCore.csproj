@@ -15,5 +15,6 @@
     <Folder Include="Backtracking\Medium\" />
     <Folder Include="NonTag\" />
     <Folder Include="NonTag\Medium\" />
+    <Folder Include="NonTag\Easy\" />
   </ItemGroup>
 </Project>
